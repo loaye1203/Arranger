@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Arranger_SourceBytes",
+    "characters": 1027,
+    "prefix": "BxQhLjtIVWJvfImWo7C9ytfk8f4LGC"
+  },
+  {
+    "name": "Arranger_SourceSHA256",
+    "characters": 64,
+    "prefix": "c0c16a8c22fed76a0ee480dded83d7"
+  },
+  {
+    "name": "Arranger_LocalFrame",
+    "characters": 20,
+    "prefix": "1,0,0,1,17.25,23.125"
+  }
+]

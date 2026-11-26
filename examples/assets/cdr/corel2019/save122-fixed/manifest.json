@@ -1,0 +1,190 @@
+{
+  "origin_commit": "c0896f07727b193f600a0453434873e354084266",
+  "report": 122,
+  "cases": [
+    {
+      "file": "fixed-strokes-fixedstroke14-rect-stretch-corel-resaved.cdr",
+      "sha256": "40f9d15e9c0db865fa2e92a9ed227dd00c02ed83930b121ebde577b0ffae0273",
+      "source_packet": "examples/assets/cdr/fixed-strokes-20261101/manifest.json",
+      "source_name": "rect-stretch",
+      "version": 14,
+      "kind": "unchanged_native_return"
+    },
+    {
+      "file": "fixed-strokes-fixedstroke14-rect-shear-corel-resaved.cdr",
+      "sha256": "19fbf130ff6d005cb4608177c16fc8dbfd01df2977351b018701597dc419a688",
+      "source_packet": "examples/assets/cdr/fixed-strokes-20261101/manifest.json",
+      "source_name": "rect-shear",
+      "version": 14,
+      "kind": "unchanged_native_return"
+    },
+    {
+      "file": "fixed-strokes-fixedstroke14-rect-reflected-corel-resaved.cdr",
+      "sha256": "e3fd26a88863813d8c60230cd7ba1c30cd4dd51143798e4a3ac3b8d42339656d",
+      "source_packet": "examples/assets/cdr/fixed-strokes-20261101/manifest.json",
+      "source_name": "rect-reflected",
+      "version": 14,
+      "kind": "unchanged_native_return"
+    },
+    {
+      "file": "fixed-strokes-fixedstroke21-rect-stretch-corel-resaved.cdr",
+      "sha256": "59a496bf918f6112cc0d8214ab27a9ab29a6f3a34f43447129ca32586fba39ac",
+      "source_packet": "examples/assets/cdr/fixed-strokes-20261101/manifest.json",
+      "source_name": "rect-stretch",
+      "version": 21,
+      "kind": "unchanged_native_return"
+    },
+    {
+      "file": "fixed-strokes-fixedstroke21-rect-shear-corel-resaved.cdr",
+      "sha256": "0ba973a0d317ffb690a0966295b93ce951c18a926d960ac1e71d5a05e875e458",
+      "source_packet": "examples/assets/cdr/fixed-strokes-20261101/manifest.json",
+      "source_name": "rect-shear",
+      "version": 21,
+      "kind": "unchanged_native_return"
+    },
+    {
+      "file": "fixed-strokes-fixedstroke21-rect-reflected-corel-resaved.cdr",
+      "sha256": "491d92decfb3f36836df4cb53e5acd568cd4e33e88f1477ea118febda4176987",
+      "source_packet": "examples/assets/cdr/fixed-strokes-20261101/manifest.json",
+      "source_name": "rect-reflected",
+      "version": 21,
+      "kind": "unchanged_native_return"
+    },
+    {
+      "file": "fixed-strokes-rect-stretch-v14-width-height.cdr",
+      "sha256": "96f307057e1eccef557904aef2eb3faefb4352491b55853ac7f6b9c73f463e52",
+      "kind": "actual_size_edit",
+      "version": 14,
+      "sdk_bounds_mm": [
+        39.99999999999999,
+        51.0,
+        42.0,
+        6.0
+      ],
+      "native_type": 3
+    },
+    {
+      "file": "fixed-strokes-rect-shear-v14-width-height.cdr",
+      "sha256": "3969e53d37978bd9a613da66e505cd53f8dcf81aa93fd984baaa535b3eab8c7b",
+      "kind": "actual_size_edit",
+      "version": 14,
+      "sdk_bounds_mm": [
+        55.42,
+        63.2201,
+        28.5001,
+        14.6999
+      ],
+      "native_type": 3
+    },
+    {
+      "file": "fixed-strokes-rect-stretch-v21-width-height.cdr",
+      "sha256": "315e1199f17a2ab566063adbcad199b44d64f5df72e38afb214a4d59be42a71a",
+      "kind": "actual_size_edit",
+      "version": 21,
+      "sdk_bounds_mm": [
+        39.99999999999999,
+        51.0,
+        42.0,
+        6.0
+      ],
+      "native_type": 1
+    },
+    {
+      "file": "fixed-strokes-rect-shear-v21-width-height.cdr",
+      "sha256": "684e962e03f035e2328c3279c6a9742c670fdead37cd7fb30d7cc64b5b518600",
+      "kind": "actual_size_edit",
+      "version": 21,
+      "sdk_bounds_mm": [
+        55.42,
+        63.2201,
+        28.5001,
+        14.7
+      ],
+      "native_type": 1
+    },
+    {
+      "file": "fixed-nibs-fixednib14-rect-shear-corel-resaved.cdr",
+      "sha256": "90f52630f4acb560ccd77ecbdb61770a28210aa40ac6dc0431035cbac2412dae",
+      "source_packet": "examples/assets/cdr/fixed-nibs-20261101/manifest.json",
+      "source_name": "rect-shear",
+      "version": 14,
+      "kind": "unchanged_native_return"
+    },
+    {
+      "file": "fixed-nibs-fixednib14-rect-reflected-corel-resaved.cdr",
+      "sha256": "c30c6582fd330c0860fbcd0ea5e1f4e5a24fff4cc602b185d4a0824b4d12610a",
+      "source_packet": "examples/assets/cdr/fixed-nibs-20261101/manifest.json",
+      "source_name": "rect-reflected",
+      "version": 14,
+      "kind": "unchanged_native_return"
+    },
+    {
+      "file": "fixed-nibs-fixednib21-rect-shear-corel-resaved.cdr",
+      "sha256": "71e04c003b8fff7bf321c0005d05e7684d25e94b3d94caf41e8205ce27b8bef9",
+      "source_packet": "examples/assets/cdr/fixed-nibs-20261101/manifest.json",
+      "source_name": "rect-shear",
+      "version": 21,
+      "kind": "unchanged_native_return"
+    },
+    {
+      "file": "fixed-nibs-fixednib21-rect-reflected-corel-resaved.cdr",
+      "sha256": "be9cc330f41977c93081740c4809f88d4b3fe8467953c85835e9f413586be645",
+      "source_packet": "examples/assets/cdr/fixed-nibs-20261101/manifest.json",
+      "source_name": "rect-reflected",
+      "version": 21,
+      "kind": "unchanged_native_return"
+    },
+    {
+      "file": "fixed-nibs-rect-shear-v14-width-height.cdr",
+      "sha256": "a6541a1225a23113c11190caecd2aa59eaf4874ea9413aaf9bd4124ec7197282",
+      "kind": "actual_size_edit",
+      "version": 14,
+      "sdk_bounds_mm": [
+        55.42,
+        63.2201,
+        28.5001,
+        14.7
+      ],
+      "native_type": 3
+    },
+    {
+      "file": "fixed-nibs-rect-reflected-v14-width-height.cdr",
+      "sha256": "157e66e0416f0becf4a71682bb02aeb1ff8312228333d9b0bcd5829f5875ff8f",
+      "kind": "actual_size_edit",
+      "version": 14,
+      "sdk_bounds_mm": [
+        60.000000000000014,
+        63.99999999999998,
+        14.5,
+        17.25
+      ],
+      "native_type": 3
+    },
+    {
+      "file": "fixed-nibs-rect-shear-v21-width-height.cdr",
+      "sha256": "26590944a80d561bab57fb6be5218ccfb6b406d329a4adff135730931466e3bf",
+      "kind": "actual_size_edit",
+      "version": 21,
+      "sdk_bounds_mm": [
+        55.42,
+        63.2201,
+        28.5001,
+        14.7
+      ],
+      "native_type": 1
+    },
+    {
+      "file": "fixed-nibs-rect-reflected-v21-width-height.cdr",
+      "sha256": "4288a12fa889876818a4bad5900bb5ad1a49aac1f9dbae28f654c708a6822ae3",
+      "kind": "actual_size_edit",
+      "version": 21,
+      "sdk_bounds_mm": [
+        60.000000000000014,
+        63.99999999999998,
+        14.5,
+        17.25
+      ],
+      "native_type": 1
+    }
+  ]
+}

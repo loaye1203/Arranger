@@ -1,0 +1,27 @@
+Arranger 0.1.0
+Copyright (c) 2026 Arranger contributors
+Project code is licensed under the MIT License in LICENSE.
+
+This distribution uses third-party software. The project license does not
+replace the licenses of these components. Their copyright/license/notice
+texts accompany this distribution in docs/third-party-licenses/.
+
+docs/third-party-windows.json lists the active Windows Cargo target graph,
+including build dependencies. It is broader than the code linked into either
+individual executable; it excludes inactive optional Cargo dependencies.
+The native Skia PDF/codecs/text library has additional pinned notices listed
+in docs/skia-native-notices.json and docs/third-party-licenses/skia-native/.
+The conservative native notice collection includes optional codec modules;
+it does not assert that every listed module is linked.
+
+Principal components include kurbo, linesweeper, resvg/usvg/harfrust,
+eframe/egui/winit, image/zune-jpeg, serde, sha2, unicode-segmentation and
+rust-skia/Skia. Refer to the versioned inventories for all resolved packages.
+
+The egui default UI fonts include OFL-1.1 and Ubuntu-font-1.0 licensed fonts.
+Their notices are included with epaint_default_fonts. Document fonts are read
+from the user's operating system; no Microsoft or Apple system font files
+are included. Synthetic example PNG/JPEG fixtures are project-generated.
+
+No Graphite or Inkscape executable/source is included in this distribution.
+No LLM, account, cloud service, toolchain, SDK or Python runtime is bundled.

@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "file": "localcircle21-rect-oblique50-1-corel-resaved.cdr",
+      "sha256": "29c3e8ad01a9be83f5959a75f19a838d51411fb749d63ffd4d152f31de3fe85e",
+      "native_kind": 3,
+      "source_member": "artifacts/windows-local-circle21-20261101-01/local-circle21/native/localcircle21-rect-oblique50-1-corel-resaved.cdr",
+      "source_archive": "reports/windows/WIN-LOCAL-CIRCLE21-20261101-01/raw.zip"
+    },
+    {
+      "file": "localcircle21-rect-fractional--1-parent-corel-resaved.cdr",
+      "sha256": "ffdc19f9f3d7f3cf1ab58d53e3e89d2bdbf306e181e83261c6eace6ddb1a9bbe",
+      "native_kind": 3,
+      "source_member": "artifacts/windows-local-circle21-20261101-01/local-circle21/native/localcircle21-rect-fractional--1-parent-corel-resaved.cdr",
+      "source_archive": "reports/windows/WIN-LOCAL-CIRCLE21-20261101-01/raw.zip"
+    },
+    {
+      "file": "localcircle21-rect-near-orthogonal-1-corel-resaved.cdr",
+      "sha256": "f4c6e091bf17473d0483ad08a1dddeb2f7099a178b15d0da93d22b64a43ffe67",
+      "native_kind": 3,
+      "source_member": "artifacts/windows-local-circle21-20261101-01/local-circle21/native/localcircle21-rect-near-orthogonal-1-corel-resaved.cdr",
+      "source_archive": "reports/windows/WIN-LOCAL-CIRCLE21-20261101-01/raw.zip"
+    },
+    {
+      "file": "localcircle21-rect-shear60-1-parent-corel-resaved.cdr",
+      "sha256": "744b440fe8192c52a3dd01b298bf2f254ccd1f0b2a28d3e705227d2ad4b6378c",
+      "native_kind": 3,
+      "source_member": "artifacts/windows-local-circle21-20261101-01/local-circle21/native/localcircle21-rect-shear60-1-parent-corel-resaved.cdr",
+      "source_archive": "reports/windows/WIN-LOCAL-CIRCLE21-20261101-01/raw.zip"
+    }
+  ],
+  "scope": "Actual Corel124 rectangle-to-curve failures, retained as curves; these are not successful rectangle exports."
+}

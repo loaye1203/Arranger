@@ -1,0 +1,1006 @@
+[
+  {
+    "kind": "group-plain",
+    "version": 14,
+    "file": "group-plain-v14.cdr",
+    "sha256": "a4991ff257f8282313ef54853d742479778f99e952272ec21f70469b172ff4c0",
+    "before": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "ellipse",
+            "type": 2,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "rect",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "ellipse",
+            "type": 2,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "rect",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ]
+  },
+  {
+    "kind": "group-plain",
+    "version": 21,
+    "file": "group-plain-v21.cdr",
+    "sha256": "009858b443147edf856fb4e1a884417602d6f834ffcad281220e5ccbced4c0b5",
+    "before": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "ellipse",
+            "type": 2,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "rect",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "ellipse",
+            "type": 2,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "rect",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ]
+  },
+  {
+    "kind": "group-affine",
+    "version": 14,
+    "file": "group-affine-v14.cdr",
+    "sha256": "7a3bc623f7dd50d746f73a8762100b764fc754574edae600698b4635c7e49035",
+    "before": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "ellipse",
+            "type": 2,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "rect",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "ellipse",
+            "type": 2,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "rect",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ]
+  },
+  {
+    "kind": "group-affine",
+    "version": 21,
+    "file": "group-affine-v21.cdr",
+    "sha256": "e9b2585656c29ca8b68bfc5e4262dfe59836de71e6fe26a559c4f2d5e8e91a94",
+    "before": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "ellipse",
+            "type": 2,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "rect",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "ellipse",
+            "type": 2,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "rect",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ]
+  },
+  {
+    "kind": "group-nested",
+    "version": 14,
+    "file": "group-nested-v14.cdr",
+    "sha256": "710809fd1e9cbdb343599647f55f8635ae8d9a88cdbce0a1f211548f52a71b94",
+    "before": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "sibling",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "7"
+          },
+          {
+            "name": "inner",
+            "type": 7,
+            "children": [
+              {
+                "name": "ellipse",
+                "type": 2,
+                "children": [],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "5"
+              },
+              {
+                "name": "rect",
+                "type": 1,
+                "children": [],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "4"
+              }
+            ],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "6"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "8"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "sibling",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "7"
+          },
+          {
+            "name": "inner",
+            "type": 7,
+            "children": [
+              {
+                "name": "ellipse",
+                "type": 2,
+                "children": [],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "5"
+              },
+              {
+                "name": "rect",
+                "type": 1,
+                "children": [],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "4"
+              }
+            ],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "6"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "8"
+      }
+    ]
+  },
+  {
+    "kind": "group-nested",
+    "version": 21,
+    "file": "group-nested-v21.cdr",
+    "sha256": "8fd773a60b9c54c988f52046d07e451160a504bd3a56621f585f863839d384ce",
+    "before": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "sibling",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "7"
+          },
+          {
+            "name": "inner",
+            "type": 7,
+            "children": [
+              {
+                "name": "ellipse",
+                "type": 2,
+                "children": [],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "5"
+              },
+              {
+                "name": "rect",
+                "type": 1,
+                "children": [],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "4"
+              }
+            ],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "6"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "8"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "sibling",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "7"
+          },
+          {
+            "name": "inner",
+            "type": 7,
+            "children": [
+              {
+                "name": "ellipse",
+                "type": 2,
+                "children": [],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "5"
+              },
+              {
+                "name": "rect",
+                "type": 1,
+                "children": [],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "4"
+              }
+            ],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "6"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "8"
+      }
+    ]
+  },
+  {
+    "kind": "group-content",
+    "version": 14,
+    "file": "group-content-v14.cdr",
+    "sha256": "b133af6984882c245f573890b28bfe20852e49d1a5b8761271af0206b0404007",
+    "before": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "image",
+            "type": 5,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "text",
+            "type": 6,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "image",
+            "type": 5,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "text",
+            "type": 6,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ]
+  },
+  {
+    "kind": "group-content",
+    "version": 21,
+    "file": "group-content-v21.cdr",
+    "sha256": "12492de9bf70930528e85d7febea5df0f8c980f4744f54d7f625ad0985020765",
+    "before": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "image",
+            "type": 5,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "text",
+            "type": 6,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "outer",
+        "type": 7,
+        "children": [
+          {
+            "name": "image",
+            "type": 5,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "5"
+          },
+          {
+            "name": "text",
+            "type": 6,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "powerclip": [],
+        "observation_errors": [],
+        "static_id": "6"
+      }
+    ]
+  },
+  {
+    "kind": "clip-rect",
+    "version": 14,
+    "file": "clip-rect-v14.cdr",
+    "sha256": "e645251fef1fb72e4ee16088816aeadeb22d4bcc1076d6413d21c1515a8655e3",
+    "before": [
+      {
+        "name": "frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "content",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "content",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ]
+  },
+  {
+    "kind": "clip-rect",
+    "version": 21,
+    "file": "clip-rect-v21.cdr",
+    "sha256": "c3b2221a7d5e18c84b8fdd6ff64812b33b07017d581b5832b110eef6f38b0322",
+    "before": [
+      {
+        "name": "frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "content",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "content",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ]
+  },
+  {
+    "kind": "clip-path",
+    "version": 14,
+    "file": "clip-path-v14.cdr",
+    "sha256": "9baa5859ca8f3e057ddf40b6c57d79888464327c598c0ae8e7568449fbb5c54a",
+    "before": [
+      {
+        "name": "frame",
+        "type": 3,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "content",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "frame",
+        "type": 3,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "content",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ]
+  },
+  {
+    "kind": "clip-path",
+    "version": 21,
+    "file": "clip-path-v21.cdr",
+    "sha256": "311ec2734f9a8ccaf75ff3e85dfa7416b9d35ad6233fb8e36801ff435ba77da8",
+    "before": [
+      {
+        "name": "frame",
+        "type": 3,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "content",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "frame",
+        "type": 3,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "content",
+            "type": 1,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ]
+  },
+  {
+    "kind": "clip-image",
+    "version": 14,
+    "file": "clip-image-v14.cdr",
+    "sha256": "1d67c04bda9de6b6d06eeb2886905d541f9e4b91957b7c24aeb1cc3c621c829f",
+    "before": [
+      {
+        "name": "frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "image",
+            "type": 5,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "image",
+            "type": 5,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ]
+  },
+  {
+    "kind": "clip-image",
+    "version": 21,
+    "file": "clip-image-v21.cdr",
+    "sha256": "64119cf51cd61a4282b5d3f2fc6a3f2b9af513cbd27552cd4cdc1be90a5d0bc4",
+    "before": [
+      {
+        "name": "frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "image",
+            "type": 5,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "image",
+            "type": 5,
+            "children": [],
+            "powerclip": [],
+            "observation_errors": [],
+            "static_id": "4"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "5"
+      }
+    ]
+  },
+  {
+    "kind": "clip-nested",
+    "version": 14,
+    "file": "clip-nested-v14.cdr",
+    "sha256": "dd27fdb5d1e9eccb933196db182cd1484ac39f16d6271bf09d371eb1aff047ea",
+    "before": [
+      {
+        "name": "outer-frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "inner-frame",
+            "type": 1,
+            "children": [],
+            "powerclip": [
+              {
+                "name": "inner",
+                "type": 7,
+                "children": [
+                  {
+                    "name": "ellipse",
+                    "type": 2,
+                    "children": [],
+                    "powerclip": [],
+                    "observation_errors": [],
+                    "static_id": "5"
+                  },
+                  {
+                    "name": "rect",
+                    "type": 1,
+                    "children": [],
+                    "powerclip": [],
+                    "observation_errors": [],
+                    "static_id": "4"
+                  }
+                ],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "6"
+              }
+            ],
+            "observation_errors": [],
+            "static_id": "7"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "8"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "outer-frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "inner-frame",
+            "type": 1,
+            "children": [],
+            "powerclip": [
+              {
+                "name": "inner",
+                "type": 7,
+                "children": [
+                  {
+                    "name": "ellipse",
+                    "type": 2,
+                    "children": [],
+                    "powerclip": [],
+                    "observation_errors": [],
+                    "static_id": "5"
+                  },
+                  {
+                    "name": "rect",
+                    "type": 1,
+                    "children": [],
+                    "powerclip": [],
+                    "observation_errors": [],
+                    "static_id": "4"
+                  }
+                ],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "6"
+              }
+            ],
+            "observation_errors": [],
+            "static_id": "7"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "8"
+      }
+    ]
+  },
+  {
+    "kind": "clip-nested",
+    "version": 21,
+    "file": "clip-nested-v21.cdr",
+    "sha256": "6f52275713e46a3a80c586874b93da897c73fc629ae1bc73c3f706e38e05d03d",
+    "before": [
+      {
+        "name": "outer-frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "inner-frame",
+            "type": 1,
+            "children": [],
+            "powerclip": [
+              {
+                "name": "inner",
+                "type": 7,
+                "children": [
+                  {
+                    "name": "ellipse",
+                    "type": 2,
+                    "children": [],
+                    "powerclip": [],
+                    "observation_errors": [],
+                    "static_id": "5"
+                  },
+                  {
+                    "name": "rect",
+                    "type": 1,
+                    "children": [],
+                    "powerclip": [],
+                    "observation_errors": [],
+                    "static_id": "4"
+                  }
+                ],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "6"
+              }
+            ],
+            "observation_errors": [],
+            "static_id": "7"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "8"
+      }
+    ],
+    "after_save": [
+      {
+        "name": "outer-frame",
+        "type": 1,
+        "children": [],
+        "powerclip": [
+          {
+            "name": "inner-frame",
+            "type": 1,
+            "children": [],
+            "powerclip": [
+              {
+                "name": "inner",
+                "type": 7,
+                "children": [
+                  {
+                    "name": "ellipse",
+                    "type": 2,
+                    "children": [],
+                    "powerclip": [],
+                    "observation_errors": [],
+                    "static_id": "5"
+                  },
+                  {
+                    "name": "rect",
+                    "type": 1,
+                    "children": [],
+                    "powerclip": [],
+                    "observation_errors": [],
+                    "static_id": "4"
+                  }
+                ],
+                "powerclip": [],
+                "observation_errors": [],
+                "static_id": "6"
+              }
+            ],
+            "observation_errors": [],
+            "static_id": "7"
+          }
+        ],
+        "observation_errors": [],
+        "static_id": "8"
+      }
+    ]
+  }
+]

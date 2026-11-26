@@ -1,0 +1,192 @@
+{
+  "package": "lucide-static",
+  "version": "0.468.0",
+  "license": "ISC; MIT notices for incorporated Feather-derived paths retained in LICENSE",
+  "files": [
+    {
+      "file": "align-center-horizontal.svg",
+      "sha256": "02caba5e271365a470f2b2bb84ca5d5b9cf788e943315b1fc7f27605ac205866",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/align-center-horizontal.svg"
+    },
+    {
+      "file": "align-center-vertical.svg",
+      "sha256": "d646d56f347ee10d0ad6e02257b41bf6f13aeb8b618d4b10ef3128a3d68dbebe",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/align-center-vertical.svg"
+    },
+    {
+      "file": "align-end-horizontal.svg",
+      "sha256": "51ddccebb4d0309d0ae69ac8c78195cf99badf569f1013ac1552b26a4a4a4e99",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/align-end-horizontal.svg"
+    },
+    {
+      "file": "align-end-vertical.svg",
+      "sha256": "88a62c7749749cbf860701945ae79ffdc6fdbc661eeb515cf3289cf3a74564fe",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/align-end-vertical.svg"
+    },
+    {
+      "file": "align-horizontal-distribute-center.svg",
+      "sha256": "340ba4630d2754fe5ba9440bb8fb27e37f66321c46668112395700d9f9f814b5",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/align-horizontal-distribute-center.svg"
+    },
+    {
+      "file": "align-start-horizontal.svg",
+      "sha256": "7c22ddddd60ec25445900f51a34abb6bc61eaa3482da2e1aa1c5d7feefedcd33",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/align-start-horizontal.svg"
+    },
+    {
+      "file": "align-start-vertical.svg",
+      "sha256": "eb80096cbe0c56f8093456377cfce4499e2d0a7bb844416c49dba0c8d41560d6",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/align-start-vertical.svg"
+    },
+    {
+      "file": "align-vertical-distribute-center.svg",
+      "sha256": "0e6b63e316896faf674c61c8e0e1a238919f87ddbd7aaf036e4d02fb30305244",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/align-vertical-distribute-center.svg"
+    },
+    {
+      "file": "check.svg",
+      "sha256": "538432eec072ceeccf5a7aacf347a2ad2bff9937d203dbd0b4f4245d7accd93c",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/check.svg"
+    },
+    {
+      "file": "chevron-down.svg",
+      "sha256": "04458777b8a99214cd167dc9a8c8a1e35dcc9373b7577f74d5b5da6418ffcf67",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/chevron-down.svg"
+    },
+    {
+      "file": "chevron-up.svg",
+      "sha256": "b730622d8603e0de7e305f7d45c80e1223ec54f903dd772d3a8c2a2a0eec4943",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/chevron-up.svg"
+    },
+    {
+      "file": "circle.svg",
+      "sha256": "a5dbd7b81b08245e8d7c036b336564b3ba7a396c9b8cc89725a210fff16cadaf",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/circle.svg"
+    },
+    {
+      "file": "copy.svg",
+      "sha256": "6828c476979a7e4d5ae3ac726f8fadbcab066ec53299b7f8422cda321a60a841",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/copy.svg"
+    },
+    {
+      "file": "corner-up-right.svg",
+      "sha256": "22c9342b0469abd392d13d48b071634dcf073f0806e3508a376c3ca422061479",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/corner-up-right.svg"
+    },
+    {
+      "file": "file-plus.svg",
+      "sha256": "939dbe65d2491dac15c46dde159b629a41045df5d1ed344d7dd4a89d418f5999",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/file-plus.svg"
+    },
+    {
+      "file": "folder-open.svg",
+      "sha256": "af84f4455cde361ebefbae99f9114adcec8e2d7209bcf49e80bd724f6d36f61e",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/folder-open.svg"
+    },
+    {
+      "file": "hand.svg",
+      "sha256": "102f6c2107e43ef50ee65910858f2a0e7bf01f5151d2c0f103c16c6271400271",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/hand.svg"
+    },
+    {
+      "file": "image.svg",
+      "sha256": "a6c4da2ffe904131fdd47c7f024ef91a48df17162ba166275825b140cf2c2764",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/image.svg"
+    },
+    {
+      "file": "link.svg",
+      "sha256": "4032cd46290556330c5438075a1502b7e0355ec0369f851fb2d51098a2e7d82a",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/link.svg"
+    },
+    {
+      "file": "maximize.svg",
+      "sha256": "0864b30f3a6b95b49375c93ad874db47474a56bd2d6276c51e938f0b5e4ade9e",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/maximize.svg"
+    },
+    {
+      "file": "minus.svg",
+      "sha256": "116a64e7f95fe2c31490f084d4abbf49dc15af8e7fab4a29ed5b84bb3c26c00b",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/minus.svg"
+    },
+    {
+      "file": "mouse-pointer-2.svg",
+      "sha256": "e683912be42173892c4d55daf1eebff781d8c36a85f376bcf8722bdf37f2e27b",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/mouse-pointer-2.svg"
+    },
+    {
+      "file": "move.svg",
+      "sha256": "76802f55a0a00a0ae077f9dc11d71cb62f27fea2b1872be2311e004a1aca847b",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/move.svg"
+    },
+    {
+      "file": "pen-tool.svg",
+      "sha256": "c8faa9ada95cf93d46ab98ef09c65600dcf25a719e0d6959a3f8812abf633189",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/pen-tool.svg"
+    },
+    {
+      "file": "plus.svg",
+      "sha256": "b29207ee8f5cc0e829c0bab2e5b223fc88687599c6bd40b94ba35f52327615d6",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/plus.svg"
+    },
+    {
+      "file": "printer.svg",
+      "sha256": "b3aa8dacd9a4a704e0917b4198538d844bcb2a6bfb7c4af3225f2e9acd1c5a77",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/printer.svg"
+    },
+    {
+      "file": "redo-2.svg",
+      "sha256": "ee0b7148067687ad991f831c7388ba1488adbce0463975432692c97c6353b734",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/redo-2.svg"
+    },
+    {
+      "file": "save.svg",
+      "sha256": "197f2ac68c3c0fbf01ca90c2a010d6b1f95c01af3610a2a59a618a2d5b293043",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/save.svg"
+    },
+    {
+      "file": "scissors.svg",
+      "sha256": "9ee4b96f95337d74d1a3fd68d463b3db3eeeec28aff4a4c14aa09ef39e4de2fe",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/scissors.svg"
+    },
+    {
+      "file": "spline.svg",
+      "sha256": "b88ede800bd3011090a99ff327607bd6b429172416d5624c0eacbbdd21414457",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/spline.svg"
+    },
+    {
+      "file": "square.svg",
+      "sha256": "c6c07f247abd06d3164a6749e21812da9092908fe0033f8163149b4ee2e31347",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/square.svg"
+    },
+    {
+      "file": "trash-2.svg",
+      "sha256": "9268a35cfb4f9d852c3d13f2c91476dd067c21c20e2bcdb0093fd93fd0bf34b7",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/trash-2.svg"
+    },
+    {
+      "file": "type.svg",
+      "sha256": "b6a3e7741be184e36b6a7eebe59c1960b3fea6b298dcdf35ce7f82d6b93e9686",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/type.svg"
+    },
+    {
+      "file": "undo-2.svg",
+      "sha256": "7b95f2a9511dfb90ec0a024823efb9c2d359320fea14c3783de4db527fec88c1",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/undo-2.svg"
+    },
+    {
+      "file": "unlink.svg",
+      "sha256": "9eb1924e1038d8e4f31da005e94a58d821987969c389716824ab7d0eb4122d7c",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/unlink.svg"
+    },
+    {
+      "file": "x.svg",
+      "sha256": "0f38855d9d5775c10960ae53e46b745f77914b43f78c43bf8abc39f4d5e06de1",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/x.svg"
+    },
+    {
+      "file": "zoom-in.svg",
+      "sha256": "65813791afc5163534b46f2c06404bff7ab0cc2aaecd40908855c690ff480a5d",
+      "source": "https://unpkg.com/lucide-static@0.468.0/icons/zoom-in.svg"
+    }
+  ]
+}

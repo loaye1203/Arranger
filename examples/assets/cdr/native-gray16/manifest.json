@@ -1,0 +1,23 @@
+{
+  "source": "Windows round15 actual Corel2019 TIFF import, SaveAs14/21, 2026-11-08",
+  "width_px": 13,
+  "height_px": 9,
+  "source_samples_le_sha256": "2bc0b0a41d9141331e76d8e1d272e3b19beb72770672b5fdb123eb380bbe1f04",
+  "files": [
+    {
+      "file": "gray16.png",
+      "bytes": 150,
+      "sha256": "dd933b69d9ddb78ab37cdac73020c534fc2a51085d8f2426dda44e05b4b06384"
+    },
+    {
+      "file": "tiff-import-v14.cdr",
+      "bytes": 16079,
+      "sha256": "7f40020326c2999b26215310fc82557ab3ca71d736decd33a2bfd016c9b43db9"
+    },
+    {
+      "file": "tiff-import-v21.cdr",
+      "bytes": 20203,
+      "sha256": "7b3326b79724163aa57005a890241ca4921e79263f0ceb0a04dbab768546638a"
+    }
+  ]
+}

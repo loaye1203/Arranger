@@ -1,0 +1,190 @@
+{
+  "scope": "Saved versioned notices or explicitly identified declarations plus standard license texts for locked crates whose published archive omits the license text. Limitations are preserved per package. This catalog is not an active macOS dependency inventory.",
+  "packages": [
+    {
+      "name": "block2",
+      "version": "0.5.1",
+      "license": "MIT",
+      "repository": "https://github.com/madsmtm/objc2",
+      "vcs_revision": "4fc083f1c6d6784577e38b0ee8dbd344481e2fd2",
+      "path_in_vcs": "crates/block2",
+      "sources": [
+        {
+          "file": "third-party-licenses/block2-0.5.1/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/4fc083f1c6d6784577e38b0ee8dbd344481e2fd2/LICENSE.txt",
+          "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5",
+          "description": "versioned upstream MIT text"
+        }
+      ]
+    },
+    {
+      "name": "block2",
+      "version": "0.6.2",
+      "license": "MIT",
+      "repository": "https://github.com/madsmtm/objc2",
+      "vcs_revision": "b4167b582b2f75f9a1be75495c41b765344fd03c",
+      "path_in_vcs": "crates/block2",
+      "sources": [
+        {
+          "file": "third-party-licenses/block2-0.6.2/UPSTREAM-LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "description": "versioned upstream licensing statement"
+        },
+        {
+          "file": "third-party-licenses/block2-0.6.2/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/757cd841d0293341dbefd9b99d7548dec244ffde/LICENSE.txt",
+          "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5",
+          "description": "original MIT copyright notice retained from the parent of upstream licensing-clarification commit cfb199226661ec6e4939fcd7cd7531b3c5453076"
+        }
+      ]
+    },
+    {
+      "name": "objc-sys",
+      "version": "0.3.5",
+      "license": "MIT",
+      "repository": "https://github.com/madsmtm/objc2",
+      "vcs_revision": "4fc083f1c6d6784577e38b0ee8dbd344481e2fd2",
+      "path_in_vcs": "crates/objc-sys",
+      "sources": [
+        {
+          "file": "third-party-licenses/objc-sys-0.3.5/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/4fc083f1c6d6784577e38b0ee8dbd344481e2fd2/LICENSE.txt",
+          "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5",
+          "description": "versioned upstream MIT text"
+        }
+      ]
+    },
+    {
+      "name": "objc2",
+      "version": "0.5.3",
+      "license": "MIT",
+      "repository": "https://github.com/madsmtm/objc2",
+      "vcs_revision": "5237cbf081d04ef75a1f6a207b4018e7c1ae7438",
+      "path_in_vcs": "crates/objc2",
+      "sources": [
+        {
+          "file": "third-party-licenses/objc2-0.5.3/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/5237cbf081d04ef75a1f6a207b4018e7c1ae7438/LICENSE.txt",
+          "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5",
+          "description": "versioned upstream MIT text"
+        }
+      ]
+    },
+    {
+      "name": "objc2",
+      "version": "0.6.5",
+      "license": "MIT",
+      "repository": "https://github.com/madsmtm/objc2",
+      "vcs_revision": "d7d2fa23ceaa5e6096c923b081040e5d81b3b9df",
+      "path_in_vcs": "crates/objc2",
+      "sources": [
+        {
+          "file": "third-party-licenses/objc2-0.6.5/UPSTREAM-LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/d7d2fa23ceaa5e6096c923b081040e5d81b3b9df/LICENSE.md",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "description": "versioned upstream licensing statement"
+        },
+        {
+          "file": "third-party-licenses/objc2-0.6.5/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/757cd841d0293341dbefd9b99d7548dec244ffde/LICENSE.txt",
+          "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5",
+          "description": "original MIT copyright notice retained from the parent of upstream licensing-clarification commit cfb199226661ec6e4939fcd7cd7531b3c5453076"
+        }
+      ]
+    },
+    {
+      "name": "objc2-encode",
+      "version": "4.1.0",
+      "license": "MIT",
+      "repository": "https://github.com/madsmtm/objc2",
+      "vcs_revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+      "path_in_vcs": "crates/objc2-encode",
+      "sources": [
+        {
+          "file": "third-party-licenses/objc2-encode-4.1.0/UPSTREAM-LICENSE.md",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/8d214f5477365ffcbcbb7de058c86ed9a518efb7/LICENSE.md",
+          "sha256": "7f976f7e9cb2d87df7230606feb932c3f21ac0e664045a775b600046ff850c54",
+          "description": "versioned upstream licensing statement"
+        },
+        {
+          "file": "third-party-licenses/objc2-encode-4.1.0/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/757cd841d0293341dbefd9b99d7548dec244ffde/LICENSE.txt",
+          "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5",
+          "description": "original MIT copyright notice retained from the parent of upstream licensing-clarification commit cfb199226661ec6e4939fcd7cd7531b3c5453076"
+        }
+      ]
+    },
+    {
+      "name": "objc2-foundation",
+      "version": "0.2.2",
+      "license": "MIT",
+      "repository": "https://github.com/madsmtm/objc2",
+      "vcs_revision": "e282618be4c3a3b9542957e0c8540e9588472ce8",
+      "path_in_vcs": "framework-crates/objc2-foundation",
+      "sources": [
+        {
+          "file": "third-party-licenses/objc2-foundation-0.2.2/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt",
+          "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5",
+          "description": "versioned upstream MIT text"
+        }
+      ]
+    },
+    {
+      "name": "objc2-app-kit",
+      "version": "0.2.2",
+      "license": "MIT",
+      "repository": "https://github.com/madsmtm/objc2",
+      "vcs_revision": "e282618be4c3a3b9542957e0c8540e9588472ce8",
+      "path_in_vcs": "framework-crates/objc2-app-kit",
+      "sources": [
+        {
+          "file": "third-party-licenses/objc2-app-kit-0.2.2/LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/madsmtm/objc2/e282618be4c3a3b9542957e0c8540e9588472ce8/LICENSE.txt",
+          "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5",
+          "description": "versioned upstream MIT text"
+        }
+      ]
+    },
+    {
+      "name": "dispatch",
+      "version": "0.2.0",
+      "license": "MIT",
+      "repository": "http://github.com/SSheldon/rust-dispatch",
+      "authors": [
+        "Steven Sheldon"
+      ],
+      "vcs_revision": "82d6c7a5b75dc0c71c3f46f87bb6c16a476f7748",
+      "path_in_vcs": "",
+      "notice_source": "saved versioned upstream MIT declaration/authors plus canonical SPDX MIT template; original notice absent upstream",
+      "notice_limitation": "The dispatch 0.2.0 repository and crate omit a license notice (upstream issue https://github.com/SSheldon/rust-dispatch/issues/18). Preserved materials are its exact MIT declaration/authors and the canonical SPDX MIT template, not a recovered original copyright notice. This is text collection, not a claim of independently confirmed copyright ownership or complete legal clearance.",
+      "sources": [
+        {
+          "file": "third-party-licenses/dispatch-0.2.0/UPSTREAM-MANIFEST.toml",
+          "url": "https://raw.githubusercontent.com/SSheldon/rust-dispatch/82d6c7a5b75dc0c71c3f46f87bb6c16a476f7748/Cargo.toml",
+          "sha256": "05c60b829931ef7f1f130735843c11f5cf9cc69546eca5fc941d014781c68e31",
+          "description": "verbatim versioned upstream MIT declaration and author attribution; the repository and crate provide no license file"
+        },
+        {
+          "file": "third-party-licenses/dispatch-0.2.0/SPDX-MIT.json",
+          "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/json/details/MIT.json",
+          "sha256": "0c2b3c87a154a4aaac6bc6a735dd454dc29d9a78c23a85deedb080e0c65de1f8",
+          "description": "verbatim pinned SPDX canonical MIT record, including its copyright placeholder; not an upstream dispatch notice"
+        },
+        {
+          "file": "third-party-licenses/dispatch-0.2.0/LICENSE-MIT-SPDX.txt",
+          "url": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/json/details/MIT.json",
+          "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+          "description": "licenseText field of the pinned SPDX record, newline normalized; unfilled copyright placeholder retained, no dispatch copyright statement invented"
+        },
+        {
+          "file": "third-party-licenses/dispatch-0.2.0/NOTICE.md",
+          "url": "https://github.com/SSheldon/rust-dispatch/issues/18",
+          "sha256": "805f66a14e3582c03e928d6ffea672aaf85683ac165e7b6a8e7ae9364a8b1a05",
+          "description": "Arranger provenance explanation based on the versioned upstream declaration and the known missing-notice issue; not fetched upstream license text"
+        }
+      ]
+    }
+  ]
+}

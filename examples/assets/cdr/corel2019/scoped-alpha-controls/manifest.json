@@ -1,0 +1,43 @@
+{
+  "source_report": "reports/100-windows-save-next-validation.md",
+  "source_commit": "d9ce92b6458efba6a8784301a8a67fbb30d257ad",
+  "files": [
+    {
+      "file": "sdk-fill50-v14.cdr",
+      "bytes": 8103,
+      "sha256": "f93138d0a41e4a1f2d387390724a5cb36db4b3f919a396ad5c74859207365d07",
+      "version": 14,
+      "scope": 0,
+      "percent": 50,
+      "source": "artifacts/windows-save-next-20261029-01/concentrated-final/remaining-controls/sdk-fill-v14-resaved.cdr"
+    },
+    {
+      "file": "sdk-outline50-v14.cdr",
+      "bytes": 8158,
+      "sha256": "8a4aaa78aa8dc5e6a6c8f166d7e6657d6a377f8eb03523063c7df1ec0d638bdb",
+      "version": 14,
+      "scope": 1,
+      "percent": 50,
+      "source": "artifacts/windows-save-next-20261029-01/concentrated-final/remaining-controls/sdk-outline-v14-resaved.cdr"
+    },
+    {
+      "file": "sdk-fill50-v21.cdr",
+      "bytes": 11394,
+      "sha256": "2675c36180f9156c16866397f19c6c59a72f94bce830e1d15ade38e54dde6cba",
+      "version": 21,
+      "scope": 0,
+      "percent": 50,
+      "source": "artifacts/windows-save-next-20261029-01/concentrated-final/remaining-controls/sdk-fill-v21-resaved.cdr"
+    },
+    {
+      "file": "sdk-outline50-v21.cdr",
+      "bytes": 11552,
+      "sha256": "7453ff4e1b94d7a714c208da0d38a926759fc15d50e598dbd2b9cfbc7ebb9f8a",
+      "version": 21,
+      "scope": 1,
+      "percent": 50,
+      "source": "artifacts/windows-save-next-20261029-01/concentrated-final/remaining-controls/sdk-outline-v21-resaved.cdr"
+    }
+  ],
+  "scope": "Genuine measured50percent paint-scope references.50percent is not an8bit alpha fraction and stays rejected as a full-model import; records validate the component structure."
+}

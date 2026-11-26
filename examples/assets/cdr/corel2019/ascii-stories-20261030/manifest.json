@@ -1,0 +1,12 @@
+[
+  {
+    "file": "examples/assets/cdr/corel2019/ascii-stories-20261030/corel-area-ascii-v14.cdr",
+    "sha256": "1584dc18b0bd0d913174d79e6d268bb15a8e4df708ea1954d3d38385c4817aca",
+    "original": "artifacts/windows-return-closure-20261030-01/concentrated/native/returnfix14-fill-continuous0-area-text-corel-resaved.cdr"
+  },
+  {
+    "file": "examples/assets/cdr/corel2019/ascii-stories-20261030/corel-area-ascii-v21.cdr",
+    "sha256": "00ced490c7c9ec2c1e9d5111003108669ab316ce769e90b0273ebfe65b147abe",
+    "original": "artifacts/windows-return-closure-20261030-01/concentrated/native/returnfix21-fill-continuous0-area-text-corel-resaved.cdr"
+  }
+]

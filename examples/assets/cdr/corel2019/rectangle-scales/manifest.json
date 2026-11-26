@@ -1,0 +1,68 @@
+{
+  "source_report": 84,
+  "source_archive": "reports/windows/WIN-PATH-CLIP-NATIVE-20261027-01/raw/windows-path-clips-native-20261027-01-part01.zip",
+  "source_archive_git_sha1": "1c5f48736b9fb66f5c0086bbab5b5d55bcba0c9d",
+  "files": [
+    {
+      "file": "outline-fixed-identity-v14.cdr",
+      "sha256": "237b4e3e4b9a31970086772081588a52c9c896be7ae5d38fba379d79d77c522f",
+      "bytes": 7723
+    },
+    {
+      "file": "outline-fixed-identity-v21.cdr",
+      "sha256": "fb4934f977dfb11f0d65b7ed07b61afc4796d6a6a376f77a867a728388eeedee",
+      "bytes": 10810
+    },
+    {
+      "file": "outline-fixed-nonuniform2x1-v14.cdr",
+      "sha256": "0f8b8ead29c59090487c489a00ab50942cb26e2538962728442b1b282fb05624",
+      "bytes": 8164
+    },
+    {
+      "file": "outline-fixed-nonuniform2x1-v21.cdr",
+      "sha256": "eef4bdf090b5df17fd375275c8c31bce8933faef857b2e09eed3eb288a812761",
+      "bytes": 10872
+    },
+    {
+      "file": "outline-fixed-uniform2-v14.cdr",
+      "sha256": "dff795f5a033885e8f44e221708d6ed82d97298cbd7e7fc4a29a7fe2a021c284",
+      "bytes": 7840
+    },
+    {
+      "file": "outline-fixed-uniform2-v21.cdr",
+      "sha256": "78abae0c4e06034bbbb5466f4587c078ee1032a262ce87c187cc559425a8e802",
+      "bytes": 10838
+    },
+    {
+      "file": "outline-scaled-identity-v14.cdr",
+      "sha256": "960fec7e82cd3f44b98bf4edda5006b162cf0ee9b5945e5e00a3b57a2785f9e9",
+      "bytes": 7729
+    },
+    {
+      "file": "outline-scaled-identity-v21.cdr",
+      "sha256": "15161dbbe54b425a0a680d7eab325d331c82170f5f74bd51ec7d930e123cb5ec",
+      "bytes": 10804
+    },
+    {
+      "file": "outline-scaled-nonuniform2x1-v14.cdr",
+      "sha256": "28347c5a3c2556c82f1c7d11ec79f690cd13d971245f1727b9027f1ac66e5f05",
+      "bytes": 8705
+    },
+    {
+      "file": "outline-scaled-nonuniform2x1-v21.cdr",
+      "sha256": "600c5d24ec507ff9887b37eb8b5c4e5c71bd23fcc2ccab30682914017e75588f",
+      "bytes": 10936
+    },
+    {
+      "file": "outline-scaled-uniform2-v14.cdr",
+      "sha256": "cdbeb48987e06d02f874eb8d62610a6613a55ff25067b779216fb3988cb5dbbc",
+      "bytes": 7840
+    },
+    {
+      "file": "outline-scaled-uniform2-v21.cdr",
+      "sha256": "a1f11892d1e0c9dac8067a0942ba73a43e3823ac74a5fc9111085cfc095cc141",
+      "bytes": 10823
+    }
+  ],
+  "scope": "Existing Corel2019 controls, byte-verified extraction. Two scaled14 controls failed actual reopen and remain negative fixtures."
+}

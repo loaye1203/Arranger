@@ -1,0 +1,2096 @@
+{
+  "scope": "Active Cargo target graph including build dependencies and project packages; excludes inactive optional dependencies. Native Skia notices are listed separately.",
+  "target": "x86_64-pc-windows-msvc",
+  "packages": [
+    {
+      "name": "accesskit",
+      "version": "0.25.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/AccessKit/accesskit",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/accesskit-0.25.1/LICENSE"
+      ]
+    },
+    {
+      "name": "adler2",
+      "version": "2.0.1",
+      "license": "0BSD OR MIT OR Apache-2.0",
+      "repository": "https://github.com/oyvindln/adler2",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/adler2-2.0.1/LICENSE-0BSD",
+        "third-party-licenses/adler2-2.0.1/LICENSE-APACHE",
+        "third-party-licenses/adler2-2.0.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "ahash",
+      "version": "0.8.12",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/tkaitchuck/ahash",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/ahash-0.8.12/LICENSE-APACHE",
+        "third-party-licenses/ahash-0.8.12/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "aho-corasick",
+      "version": "1.1.5",
+      "license": "Unlicense OR MIT",
+      "repository": "https://github.com/BurntSushi/aho-corasick",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/aho-corasick-1.1.5/COPYING",
+        "third-party-licenses/aho-corasick-1.1.5/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "arranger",
+      "version": "0.1.0",
+      "license": "MIT",
+      "repository": null,
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/arranger-0.1.0/assets/icons/LICENSE"
+      ]
+    },
+    {
+      "name": "arranger-core",
+      "version": "0.1.0",
+      "license": "MIT",
+      "repository": null,
+      "selected_license_if_fallback": "MIT",
+      "notice_source": "project LICENSE",
+      "files": [
+        "third-party-licenses/arranger-core-0.1.0/LICENSE"
+      ]
+    },
+    {
+      "name": "arrayref",
+      "version": "0.3.9",
+      "license": "BSD-2-Clause",
+      "repository": "https://github.com/droundy/arrayref",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/arrayref-0.3.9/LICENSE"
+      ]
+    },
+    {
+      "name": "arrayvec",
+      "version": "0.7.8",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/bluss/arrayvec",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/arrayvec-0.7.8/LICENSE-APACHE",
+        "third-party-licenses/arrayvec-0.7.8/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "autocfg",
+      "version": "1.5.1",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/cuviper/autocfg",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/autocfg-1.5.1/LICENSE-APACHE",
+        "third-party-licenses/autocfg-1.5.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "base64",
+      "version": "0.22.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/marshallpierce/rust-base64",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/base64-0.22.1/LICENSE-APACHE",
+        "third-party-licenses/base64-0.22.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "base64",
+      "version": "0.23.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/marshallpierce/rust-base64",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/base64-0.23.1/LICENSE-APACHE",
+        "third-party-licenses/base64-0.23.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "bindgen",
+      "version": "0.72.1",
+      "license": "BSD-3-Clause",
+      "repository": "https://github.com/rust-lang/rust-bindgen",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/bindgen-0.72.1/LICENSE"
+      ]
+    },
+    {
+      "name": "bitflags",
+      "version": "2.13.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/bitflags/bitflags",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/bitflags-2.13.2/LICENSE-APACHE",
+        "third-party-licenses/bitflags-2.13.2/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "block-buffer",
+      "version": "0.10.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/utils",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/block-buffer-0.10.4/LICENSE-APACHE",
+        "third-party-licenses/block-buffer-0.10.4/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "bytemuck",
+      "version": "1.25.2",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/Lokathor/bytemuck",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/bytemuck-1.25.2/LICENSE-APACHE",
+        "third-party-licenses/bytemuck-1.25.2/LICENSE-MIT",
+        "third-party-licenses/bytemuck-1.25.2/LICENSE-ZLIB"
+      ]
+    },
+    {
+      "name": "bytemuck_derive",
+      "version": "1.12.1",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/Lokathor/bytemuck",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/bytemuck_derive-1.12.1/LICENSE-APACHE",
+        "third-party-licenses/bytemuck_derive-1.12.1/LICENSE-MIT",
+        "third-party-licenses/bytemuck_derive-1.12.1/LICENSE-ZLIB"
+      ]
+    },
+    {
+      "name": "byteorder-lite",
+      "version": "0.1.0",
+      "license": "Unlicense OR MIT",
+      "repository": "https://github.com/image-rs/byteorder-lite",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/byteorder-lite-0.1.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "cc",
+      "version": "1.8.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/cc-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/cc-1.8.0/LICENSE-APACHE",
+        "third-party-licenses/cc-1.8.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "cexpr",
+      "version": "0.6.0",
+      "license": "Apache-2.0/MIT",
+      "repository": "https://github.com/jethrogb/rust-cexpr",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/cexpr-0.6.0/LICENSE-APACHE",
+        "third-party-licenses/cexpr-0.6.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "cfg-if",
+      "version": "1.0.5",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/cfg-if",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/cfg-if-1.0.5/LICENSE-APACHE",
+        "third-party-licenses/cfg-if-1.0.5/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "cfg_aliases",
+      "version": "0.2.2",
+      "license": "MIT",
+      "repository": "https://github.com/katharostech/cfg_aliases",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/cfg_aliases-0.2.2/LICENSE",
+        "third-party-licenses/cfg_aliases-0.2.2/NOTICES.md"
+      ]
+    },
+    {
+      "name": "clang-sys",
+      "version": "1.9.1",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/KyleMayes/clang-sys",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/clang-sys-1.9.1/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "color",
+      "version": "0.3.3",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/color",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/color-0.3.3/LICENSE-APACHE",
+        "third-party-licenses/color-0.3.3/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "color_quant",
+      "version": "1.1.0",
+      "license": "MIT",
+      "repository": "https://github.com/image-rs/color_quant.git",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/color_quant-1.1.0/LICENSE"
+      ]
+    },
+    {
+      "name": "cpufeatures",
+      "version": "0.2.17",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/utils",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/cpufeatures-0.2.17/LICENSE-APACHE",
+        "third-party-licenses/cpufeatures-0.2.17/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "crc32fast",
+      "version": "1.5.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/srijs/rust-crc32fast",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/crc32fast-1.5.2/LICENSE-APACHE",
+        "third-party-licenses/crc32fast-1.5.2/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "crypto-common",
+      "version": "0.1.7",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/traits",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/crypto-common-0.1.7/LICENSE-APACHE",
+        "third-party-licenses/crypto-common-0.1.7/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "cursor-icon",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "repository": "https://github.com/rust-windowing/cursor-icon",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/cursor-icon-1.2.0/LICENSE-APACHE",
+        "third-party-licenses/cursor-icon-1.2.0/LICENSE-MIT",
+        "third-party-licenses/cursor-icon-1.2.0/LICENSE-ZLIB"
+      ]
+    },
+    {
+      "name": "data-url",
+      "version": "0.3.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/rust-url",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/data-url-0.3.2/LICENSE-APACHE",
+        "third-party-licenses/data-url-0.3.2/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "digest",
+      "version": "0.10.7",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/traits",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/digest-0.10.7/LICENSE-APACHE",
+        "third-party-licenses/digest-0.10.7/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "document-features",
+      "version": "0.2.12",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/slint-ui/document-features",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/document-features-0.2.12/LICENSE-APACHE",
+        "third-party-licenses/document-features-0.2.12/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "dpi",
+      "version": "0.1.2",
+      "license": "Apache-2.0 AND MIT",
+      "repository": "https://github.com/rust-windowing/winit",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/dpi-0.1.2/LICENSE",
+        "third-party-licenses/dpi-0.1.2/LICENSE-LIBM-MIT"
+      ]
+    },
+    {
+      "name": "ecolor",
+      "version": "0.37.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/emilk/egui",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/ecolor-0.37.0/LICENSE"
+      ]
+    },
+    {
+      "name": "eframe",
+      "version": "0.37.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/emilk/egui/tree/main/crates/eframe",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/eframe-0.37.0/LICENSE"
+      ]
+    },
+    {
+      "name": "egui",
+      "version": "0.37.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/emilk/egui",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/egui-0.37.0/LICENSE"
+      ]
+    },
+    {
+      "name": "egui-winit",
+      "version": "0.37.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/emilk/egui/tree/main/crates/egui-winit",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/egui-winit-0.37.0/LICENSE"
+      ]
+    },
+    {
+      "name": "egui_glow",
+      "version": "0.37.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/emilk/egui/tree/main/crates/egui_glow",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/egui_glow-0.37.0/LICENSE"
+      ]
+    },
+    {
+      "name": "either",
+      "version": "1.19.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rayon-rs/either",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/either-1.19.0/LICENSE-APACHE",
+        "third-party-licenses/either-1.19.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "emath",
+      "version": "0.37.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/emilk/egui/tree/main/crates/emath",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/emath-0.37.0/LICENSE"
+      ]
+    },
+    {
+      "name": "epaint",
+      "version": "0.37.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/emilk/egui/tree/main/crates/epaint",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/epaint-0.37.0/LICENSE"
+      ]
+    },
+    {
+      "name": "epaint_default_fonts",
+      "version": "0.37.0",
+      "license": "(MIT OR Apache-2.0) AND OFL-1.1 AND Ubuntu-font-1.0",
+      "repository": "https://github.com/emilk/egui/tree/main/crates/epaint_default_fonts",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/epaint_default_fonts-0.37.0/fonts/OFL.txt",
+        "third-party-licenses/epaint_default_fonts-0.37.0/fonts/UFL.txt"
+      ]
+    },
+    {
+      "name": "euclid",
+      "version": "0.22.14",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/euclid",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/euclid-0.22.14/COPYRIGHT",
+        "third-party-licenses/euclid-0.22.14/LICENSE-APACHE",
+        "third-party-licenses/euclid-0.22.14/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "fdeflate",
+      "version": "0.3.7",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/image-rs/fdeflate",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/fdeflate-0.3.7/LICENSE-APACHE",
+        "third-party-licenses/fdeflate-0.3.7/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "fearless_simd",
+      "version": "0.4.1",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/fearless_simd",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/fearless_simd-0.4.1/LICENSE-APACHE",
+        "third-party-licenses/fearless_simd-0.4.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "filetime",
+      "version": "0.2.29",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/alexcrichton/filetime",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/filetime-0.2.29/LICENSE-APACHE",
+        "third-party-licenses/filetime-0.2.29/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "find-msvc-tools",
+      "version": "0.1.14",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/cc-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/find-msvc-tools-0.1.14/LICENSE-APACHE",
+        "third-party-licenses/find-msvc-tools-0.1.14/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "flate2",
+      "version": "1.1.10",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/flate2-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/flate2-1.1.10/LICENSE-APACHE",
+        "third-party-licenses/flate2-1.1.10/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "float-cmp",
+      "version": "0.9.0",
+      "license": "MIT",
+      "repository": "https://github.com/mikedilger/float-cmp",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/float-cmp-0.9.0/LICENSE"
+      ]
+    },
+    {
+      "name": "foldhash",
+      "version": "0.2.0",
+      "license": "Zlib",
+      "repository": "https://github.com/orlp/foldhash",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/foldhash-0.2.0/LICENSE"
+      ]
+    },
+    {
+      "name": "font-types",
+      "version": "0.12.7",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/googlefonts/fontations",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/font-types-0.12.7/LICENSE-APACHE",
+        "third-party-licenses/font-types-0.12.7/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "fontdb",
+      "version": "0.24.0",
+      "license": "MIT",
+      "repository": "https://github.com/RazrFalcon/fontdb",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/fontdb-0.24.0/LICENSE",
+        "third-party-licenses/fontdb-0.24.0/tests/fonts/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "generic-array",
+      "version": "0.14.7",
+      "license": "MIT",
+      "repository": "https://github.com/fizyk20/generic-array.git",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/generic-array-0.14.7/LICENSE"
+      ]
+    },
+    {
+      "name": "gif",
+      "version": "0.14.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/image-rs/image-gif",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/gif-0.14.2/LICENSE-APACHE",
+        "third-party-licenses/gif-0.14.2/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "gl_generator",
+      "version": "0.14.0",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/brendanzab/gl-rs/",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/gl_generator-0.14.0/LICENSE"
+      ]
+    },
+    {
+      "name": "glob",
+      "version": "0.3.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/glob",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/glob-0.3.4/LICENSE-APACHE",
+        "third-party-licenses/glob-0.3.4/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "glow",
+      "version": "0.17.0",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "repository": "https://github.com/grovesNL/glow",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/glow-0.17.0/LICENSE-APACHE",
+        "third-party-licenses/glow-0.17.0/LICENSE-MIT",
+        "third-party-licenses/glow-0.17.0/LICENSE-ZLIB"
+      ]
+    },
+    {
+      "name": "glutin",
+      "version": "0.32.3",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/rust-windowing/glutin",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/glutin-0.32.3/LICENSE"
+      ]
+    },
+    {
+      "name": "glutin-winit",
+      "version": "0.5.0",
+      "license": "MIT",
+      "repository": "https://github.com/rust-windowing/glutin",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/glutin-winit-0.5.0/LICENSE"
+      ]
+    },
+    {
+      "name": "glutin_egl_sys",
+      "version": "0.7.1",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/rust-windowing/glutin",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/glutin_egl_sys-0.7.1/LICENSE"
+      ]
+    },
+    {
+      "name": "glutin_wgl_sys",
+      "version": "0.6.1",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/rust-windowing/glutin",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/glutin_wgl_sys-0.6.1/LICENSE"
+      ]
+    },
+    {
+      "name": "guillotiere",
+      "version": "0.7.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/nical/guillotiere",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/guillotiere-0.7.0/LICENSE-APACHE",
+        "third-party-licenses/guillotiere-0.7.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "harfrust",
+      "version": "0.12.0",
+      "license": "MIT",
+      "repository": "https://github.com/harfbuzz/harfrust",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/harfrust-0.12.0/LICENSE"
+      ]
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.17.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/hashbrown",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/hashbrown-0.17.1/LICENSE-APACHE",
+        "third-party-licenses/hashbrown-0.17.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "heck",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/withoutboats/heck",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/heck-0.5.0/LICENSE-APACHE",
+        "third-party-licenses/heck-0.5.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "image",
+      "version": "0.25.10",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/image-rs/image",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/image-0.25.10/LICENSE-APACHE",
+        "third-party-licenses/image-0.25.10/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "image-webp",
+      "version": "0.2.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/image-rs/image-webp",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/image-webp-0.2.4/LICENSE-APACHE",
+        "third-party-licenses/image-webp-0.2.4/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "imagesize",
+      "version": "0.15.0",
+      "license": "MIT",
+      "repository": "https://github.com/Roughsketch/imagesize",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/imagesize-0.15.0/LICENSE"
+      ]
+    },
+    {
+      "name": "itertools",
+      "version": "0.13.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-itertools/itertools",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/itertools-0.13.0/LICENSE-APACHE",
+        "third-party-licenses/itertools-0.13.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "itertools",
+      "version": "0.15.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-itertools/itertools",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/itertools-0.15.0/LICENSE-APACHE",
+        "third-party-licenses/itertools-0.15.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "itoa",
+      "version": "1.0.18",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/itoa",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/itoa-1.0.18/LICENSE-APACHE",
+        "third-party-licenses/itoa-1.0.18/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "khronos_api",
+      "version": "3.1.0",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/brendanzab/gl-rs/",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/khronos_api-3.1.0/LICENSE"
+      ]
+    },
+    {
+      "name": "kurbo",
+      "version": "0.13.1",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/kurbo",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/kurbo-0.13.1/LICENSE-APACHE",
+        "third-party-licenses/kurbo-0.13.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "libc",
+      "version": "0.2.191",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/libc",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/libc-0.2.191/LICENSE-APACHE",
+        "third-party-licenses/libc-0.2.191/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "libloading",
+      "version": "0.8.9",
+      "license": "ISC",
+      "repository": "https://github.com/nagisa/rust_libloading/",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/libloading-0.8.9/LICENSE"
+      ]
+    },
+    {
+      "name": "linebender_resource_handle",
+      "version": "0.1.1",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/raw_resource_handle",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/linebender_resource_handle-0.1.1/LICENSE-APACHE",
+        "third-party-licenses/linebender_resource_handle-0.1.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "linesweeper",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/jneem/linesweeper",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/linesweeper-0.5.0/LICENSE-APACHE",
+        "third-party-licenses/linesweeper-0.5.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "litrs",
+      "version": "1.0.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/LukasKalbertodt/litrs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/litrs-1.0.1/LICENSE-APACHE",
+        "third-party-licenses/litrs-1.0.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "lock_api",
+      "version": "0.4.14",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/Amanieu/parking_lot",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/lock_api-0.4.14/LICENSE-APACHE",
+        "third-party-licenses/lock_api-0.4.14/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "log",
+      "version": "0.4.34",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/log",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/log-0.4.34/LICENSE-APACHE",
+        "third-party-licenses/log-0.4.34/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "memchr",
+      "version": "2.8.3",
+      "license": "Unlicense OR MIT",
+      "repository": "https://github.com/BurntSushi/memchr",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/memchr-2.8.3/COPYING",
+        "third-party-licenses/memchr-2.8.3/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "memmap2",
+      "version": "0.9.11",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RazrFalcon/memmap2-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/memmap2-0.9.11/LICENSE-APACHE",
+        "third-party-licenses/memmap2-0.9.11/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "minimal-lexical",
+      "version": "0.2.1",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/Alexhuszagh/minimal-lexical",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/minimal-lexical-0.2.1/LICENSE-APACHE",
+        "third-party-licenses/minimal-lexical-0.2.1/LICENSE-MIT",
+        "third-party-licenses/minimal-lexical-0.2.1/LICENSE.md"
+      ]
+    },
+    {
+      "name": "miniz_oxide",
+      "version": "0.8.9",
+      "license": "MIT OR Zlib OR Apache-2.0",
+      "repository": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/miniz_oxide-0.8.9/LICENSE",
+        "third-party-licenses/miniz_oxide-0.8.9/LICENSE-APACHE.md",
+        "third-party-licenses/miniz_oxide-0.8.9/LICENSE-MIT.md",
+        "third-party-licenses/miniz_oxide-0.8.9/LICENSE-ZLIB.md"
+      ]
+    },
+    {
+      "name": "miniz_oxide",
+      "version": "0.9.1",
+      "license": "MIT OR Zlib OR Apache-2.0",
+      "repository": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/miniz_oxide-0.9.1/LICENSE",
+        "third-party-licenses/miniz_oxide-0.9.1/LICENSE-APACHE.md",
+        "third-party-licenses/miniz_oxide-0.9.1/LICENSE-MIT.md",
+        "third-party-licenses/miniz_oxide-0.9.1/LICENSE-ZLIB.md"
+      ]
+    },
+    {
+      "name": "moxcms",
+      "version": "0.8.1",
+      "license": "BSD-3-Clause OR Apache-2.0",
+      "repository": "https://github.com/awxkee/moxcms.git",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/moxcms-0.8.1/LICENSE-APACHE.md",
+        "third-party-licenses/moxcms-0.8.1/LICENSE.md"
+      ]
+    },
+    {
+      "name": "nohash-hasher",
+      "version": "0.2.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/paritytech/nohash-hasher",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/nohash-hasher-0.2.0/LICENSE-APACHE",
+        "third-party-licenses/nohash-hasher-0.2.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "nom",
+      "version": "7.1.3",
+      "license": "MIT",
+      "repository": "https://github.com/Geal/nom",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/nom-7.1.3/LICENSE"
+      ]
+    },
+    {
+      "name": "num-traits",
+      "version": "0.2.19",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-num/num-traits",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/num-traits-0.2.19/LICENSE-APACHE",
+        "third-party-licenses/num-traits-0.2.19/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "once_cell",
+      "version": "1.21.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/matklad/once_cell",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/once_cell-1.21.4/LICENSE-APACHE",
+        "third-party-licenses/once_cell-1.21.4/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "parking_lot",
+      "version": "0.12.5",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/Amanieu/parking_lot",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/parking_lot-0.12.5/LICENSE-APACHE",
+        "third-party-licenses/parking_lot-0.12.5/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "parking_lot_core",
+      "version": "0.9.12",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/Amanieu/parking_lot",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/parking_lot_core-0.9.12/LICENSE-APACHE",
+        "third-party-licenses/parking_lot_core-0.9.12/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "peniko",
+      "version": "0.6.1",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/peniko",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/peniko-0.6.1/LICENSE-APACHE",
+        "third-party-licenses/peniko-0.6.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "pico-args",
+      "version": "0.5.0",
+      "license": "MIT",
+      "repository": "https://github.com/RazrFalcon/pico-args",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/pico-args-0.5.0/LICENSE"
+      ]
+    },
+    {
+      "name": "pin-project-lite",
+      "version": "0.2.17",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/taiki-e/pin-project-lite",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/pin-project-lite-0.2.17/LICENSE-APACHE",
+        "third-party-licenses/pin-project-lite-0.2.17/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "pkg-config",
+      "version": "0.3.34",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/pkg-config-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/pkg-config-0.3.34/LICENSE-APACHE",
+        "third-party-licenses/pkg-config-0.3.34/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "png",
+      "version": "0.18.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/image-rs/image-png",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/png-0.18.1/LICENSE-APACHE",
+        "third-party-licenses/png-0.18.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "polycool",
+      "version": "0.4.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/linebender/kurbo",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/polycool-0.4.0/LICENSE-APACHE",
+        "third-party-licenses/polycool-0.4.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "prettyplease",
+      "version": "0.2.37",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/prettyplease",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/prettyplease-0.2.37/LICENSE-APACHE",
+        "third-party-licenses/prettyplease-0.2.37/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "proc-macro2",
+      "version": "1.0.107",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/proc-macro2",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/proc-macro2-1.0.107/LICENSE-APACHE",
+        "third-party-licenses/proc-macro2-1.0.107/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "profiling",
+      "version": "1.0.18",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/aclysma/profiling",
+      "selected_license_if_fallback": "Apache-2.0",
+      "notice_source": "standard Apache-2.0 text; crate declares this option and contains no separate notice file",
+      "files": [
+        "third-party-licenses/profiling-1.0.18/LICENSE"
+      ]
+    },
+    {
+      "name": "pxfm",
+      "version": "0.1.30",
+      "license": "BSD-3-Clause OR Apache-2.0",
+      "repository": "https://github.com/awxkee/pxfm",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/pxfm-0.1.30/LICENSE-APACHE.md",
+        "third-party-licenses/pxfm-0.1.30/LICENSE.md"
+      ]
+    },
+    {
+      "name": "quick-error",
+      "version": "2.0.1",
+      "license": "MIT/Apache-2.0",
+      "repository": "http://github.com/tailhook/quick-error",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/quick-error-2.0.1/LICENSE-APACHE",
+        "third-party-licenses/quick-error-2.0.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "quote",
+      "version": "1.0.47",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/quote",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/quote-1.0.47/LICENSE-APACHE",
+        "third-party-licenses/quote-1.0.47/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "raw-window-handle",
+      "version": "0.6.2",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "repository": "https://github.com/rust-windowing/raw-window-handle",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/raw-window-handle-0.6.2/LICENSE-APACHE.md",
+        "third-party-licenses/raw-window-handle-0.6.2/LICENSE-MIT.md",
+        "third-party-licenses/raw-window-handle-0.6.2/LICENSE-ZLIB.md"
+      ]
+    },
+    {
+      "name": "read-fonts",
+      "version": "0.41.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/googlefonts/fontations",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/read-fonts-0.41.0/LICENSE-APACHE",
+        "third-party-licenses/read-fonts-0.41.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "regex",
+      "version": "1.13.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/regex",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/regex-1.13.1/LICENSE-APACHE",
+        "third-party-licenses/regex-1.13.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "regex-automata",
+      "version": "0.4.18",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/regex",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/regex-automata-0.4.18/LICENSE-APACHE",
+        "third-party-licenses/regex-automata-0.4.18/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "regex-syntax",
+      "version": "0.8.11",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-lang/regex",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/regex-syntax-0.8.11/LICENSE-APACHE",
+        "third-party-licenses/regex-syntax-0.8.11/LICENSE-MIT",
+        "third-party-licenses/regex-syntax-0.8.11/src/unicode_tables/LICENSE-UNICODE"
+      ]
+    },
+    {
+      "name": "resvg",
+      "version": "0.48.1",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/resvg",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/resvg-0.48.1/LICENSE-APACHE",
+        "third-party-licenses/resvg-0.48.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "rgb",
+      "version": "0.8.53",
+      "license": "MIT",
+      "repository": "https://github.com/kornelski/rust-rgb",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/rgb-0.8.53/LICENSE"
+      ]
+    },
+    {
+      "name": "roxmltree",
+      "version": "0.21.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RazrFalcon/roxmltree",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/roxmltree-0.21.1/LICENSE-APACHE",
+        "third-party-licenses/roxmltree-0.21.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "rustc-hash",
+      "version": "2.1.3",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/rust-lang/rustc-hash",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/rustc-hash-2.1.3/LICENSE-APACHE",
+        "third-party-licenses/rustc-hash-2.1.3/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/bluss/scopeguard",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/scopeguard-1.2.0/LICENSE-APACHE",
+        "third-party-licenses/scopeguard-1.2.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "self_cell",
+      "version": "1.3.0",
+      "license": "Apache-2.0 OR GPL-2.0-only",
+      "repository": "https://github.com/Voultapher/self_cell",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/self_cell-1.3.0/LICENSE-APACHE",
+        "third-party-licenses/self_cell-1.3.0/LICENSE-GPLv2"
+      ]
+    },
+    {
+      "name": "serde",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/serde-rs/serde",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/serde-1.0.229/LICENSE-APACHE",
+        "third-party-licenses/serde-1.0.229/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "serde_core",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/serde-rs/serde",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/serde_core-1.0.229/LICENSE-APACHE",
+        "third-party-licenses/serde_core-1.0.229/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "serde_derive",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/serde-rs/serde",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/serde_derive-1.0.229/LICENSE-APACHE",
+        "third-party-licenses/serde_derive-1.0.229/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "serde_json",
+      "version": "1.0.154",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/serde-rs/json",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/serde_json-1.0.154/LICENSE-APACHE",
+        "third-party-licenses/serde_json-1.0.154/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "serde_spanned",
+      "version": "1.1.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/toml-rs/toml",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/serde_spanned-1.1.2/LICENSE-APACHE",
+        "third-party-licenses/serde_spanned-1.1.2/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "sha2",
+      "version": "0.10.9",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/RustCrypto/hashes",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/sha2-0.10.9/LICENSE-APACHE",
+        "third-party-licenses/sha2-0.10.9/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "shlex",
+      "version": "1.3.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/comex/rust-shlex",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/shlex-1.3.0/LICENSE-APACHE",
+        "third-party-licenses/shlex-1.3.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "shlex",
+      "version": "2.0.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/comex/rust-shlex",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/shlex-2.0.1/LICENSE-APACHE",
+        "third-party-licenses/shlex-2.0.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "simd-adler32",
+      "version": "0.3.10",
+      "license": "MIT",
+      "repository": "https://github.com/mcountryman/simd-adler32",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/simd-adler32-0.3.10/LICENSE.md"
+      ]
+    },
+    {
+      "name": "simplecss",
+      "version": "0.2.2",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/simplecss",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/simplecss-0.2.2/LICENSE-APACHE",
+        "third-party-licenses/simplecss-0.2.2/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "siphasher",
+      "version": "1.0.4",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/jedisct1/rust-siphash",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/siphasher-1.0.4/COPYING",
+        "third-party-licenses/siphasher-1.0.4/LICENSE-APACHE",
+        "third-party-licenses/siphasher-1.0.4/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "skia-bindings",
+      "version": "0.153.3",
+      "license": "MIT",
+      "repository": "https://github.com/rust-skia/rust-skia",
+      "selected_license_if_fallback": "MIT",
+      "notice_source": "saved pinned rust-skia source LICENSE",
+      "files": [
+        "third-party-licenses/skia-bindings-0.153.3/LICENSE"
+      ]
+    },
+    {
+      "name": "skia-safe",
+      "version": "0.153.3",
+      "license": "MIT",
+      "repository": "https://github.com/rust-skia/rust-skia",
+      "selected_license_if_fallback": "MIT",
+      "notice_source": "saved pinned rust-skia source LICENSE",
+      "files": [
+        "third-party-licenses/skia-safe-0.153.3/LICENSE"
+      ]
+    },
+    {
+      "name": "skrifa",
+      "version": "0.44.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/googlefonts/fontations",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/skrifa-0.44.0/LICENSE-APACHE",
+        "third-party-licenses/skrifa-0.44.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "slotmap",
+      "version": "1.1.1",
+      "license": "Zlib",
+      "repository": "https://github.com/orlp/slotmap",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/slotmap-1.1.1/LICENSE"
+      ]
+    },
+    {
+      "name": "smallvec",
+      "version": "1.16.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/rust-smallvec",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/smallvec-1.16.3/LICENSE-APACHE",
+        "third-party-licenses/smallvec-1.16.3/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "smol_str",
+      "version": "0.2.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-analyzer/smol_str",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/smol_str-0.2.2/LICENSE-APACHE",
+        "third-party-licenses/smol_str-0.2.2/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "static_assertions",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/nvzqz/static-assertions-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/static_assertions-1.1.0/LICENSE-APACHE",
+        "third-party-licenses/static_assertions-1.1.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "strict-num",
+      "version": "0.1.1",
+      "license": "MIT",
+      "repository": "https://github.com/RazrFalcon/strict-num",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/strict-num-0.1.1/LICENSE"
+      ]
+    },
+    {
+      "name": "svgtypes",
+      "version": "0.16.1",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/svgtypes",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/svgtypes-0.16.1/LICENSE-APACHE",
+        "third-party-licenses/svgtypes-0.16.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "syn",
+      "version": "2.0.119",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/syn",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/syn-2.0.119/LICENSE-APACHE",
+        "third-party-licenses/syn-2.0.119/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "syn",
+      "version": "3.0.9",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/syn",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/syn-3.0.9/LICENSE-APACHE",
+        "third-party-licenses/syn-3.0.9/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "tar",
+      "version": "0.4.46",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/composefs/tar-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/tar-0.4.46/LICENSE-APACHE",
+        "third-party-licenses/tar-0.4.46/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "thiserror",
+      "version": "2.0.21",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/thiserror",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/thiserror-2.0.21/LICENSE-APACHE",
+        "third-party-licenses/thiserror-2.0.21/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "thiserror-impl",
+      "version": "2.0.21",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/dtolnay/thiserror",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/thiserror-impl-2.0.21/LICENSE-APACHE",
+        "third-party-licenses/thiserror-impl-2.0.21/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "tiny-skia",
+      "version": "0.12.0",
+      "license": "BSD-3-Clause",
+      "repository": "https://github.com/linebender/tiny-skia",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/tiny-skia-0.12.0/LICENSE"
+      ]
+    },
+    {
+      "name": "tiny-skia-path",
+      "version": "0.12.0",
+      "license": "BSD-3-Clause",
+      "repository": "https://github.com/linebender/tiny-skia/tree/master/path",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/tiny-skia-path-0.12.0/LICENSE"
+      ]
+    },
+    {
+      "name": "tinyvec",
+      "version": "1.13.3",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/Lokathor/tinyvec",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/tinyvec-1.13.3/LICENSE-APACHE.md",
+        "third-party-licenses/tinyvec-1.13.3/LICENSE-MIT.md",
+        "third-party-licenses/tinyvec-1.13.3/LICENSE-ZLIB.md"
+      ]
+    },
+    {
+      "name": "toml",
+      "version": "1.1.8+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/toml-rs/toml",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/toml-1.1.8+spec-1.1.0/LICENSE-APACHE",
+        "third-party-licenses/toml-1.1.8+spec-1.1.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "toml_datetime",
+      "version": "1.1.2+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/toml-rs/toml",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/toml_datetime-1.1.2+spec-1.1.0/LICENSE-APACHE",
+        "third-party-licenses/toml_datetime-1.1.2+spec-1.1.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "toml_parser",
+      "version": "1.1.5+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/toml-rs/toml",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/toml_parser-1.1.5+spec-1.1.0/LICENSE-APACHE",
+        "third-party-licenses/toml_parser-1.1.5+spec-1.1.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "toml_writer",
+      "version": "1.1.3+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/toml-rs/toml",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/toml_writer-1.1.3+spec-1.1.0/LICENSE-APACHE",
+        "third-party-licenses/toml_writer-1.1.3+spec-1.1.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "tracing",
+      "version": "0.1.44",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/tracing",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/tracing-0.1.44/LICENSE"
+      ]
+    },
+    {
+      "name": "tracing-core",
+      "version": "0.1.36",
+      "license": "MIT",
+      "repository": "https://github.com/tokio-rs/tracing",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/tracing-core-0.1.36/LICENSE",
+        "third-party-licenses/tracing-core-0.1.36/src/spin/LICENSE"
+      ]
+    },
+    {
+      "name": "typenum",
+      "version": "1.20.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/paholg/typenum",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/typenum-1.20.1/LICENSE",
+        "third-party-licenses/typenum-1.20.1/LICENSE-APACHE",
+        "third-party-licenses/typenum-1.20.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "unicode-bidi",
+      "version": "0.3.18",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/servo/unicode-bidi",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/unicode-bidi-0.3.18/COPYRIGHT",
+        "third-party-licenses/unicode-bidi-0.3.18/LICENSE-APACHE",
+        "third-party-licenses/unicode-bidi-0.3.18/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "unicode-general-category",
+      "version": "1.1.0",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/yeslogic/unicode-general-category",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/unicode-general-category-1.1.0/LICENSE"
+      ]
+    },
+    {
+      "name": "unicode-ident",
+      "version": "1.0.27",
+      "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "repository": "https://github.com/dtolnay/unicode-ident",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/unicode-ident-1.0.27/LICENSE-APACHE",
+        "third-party-licenses/unicode-ident-1.0.27/LICENSE-MIT",
+        "third-party-licenses/unicode-ident-1.0.27/LICENSE-UNICODE"
+      ]
+    },
+    {
+      "name": "unicode-properties",
+      "version": "0.1.4",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/unicode-rs/unicode-properties",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/unicode-properties-0.1.4/COPYRIGHT",
+        "third-party-licenses/unicode-properties-0.1.4/LICENSE-APACHE",
+        "third-party-licenses/unicode-properties-0.1.4/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "unicode-script",
+      "version": "0.5.8",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/unicode-rs/unicode-script",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/unicode-script-0.5.8/LICENSE-APACHE",
+        "third-party-licenses/unicode-script-0.5.8/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "unicode-segmentation",
+      "version": "1.13.3",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/unicode-rs/unicode-segmentation",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/unicode-segmentation-1.13.3/COPYRIGHT",
+        "third-party-licenses/unicode-segmentation-1.13.3/LICENSE-APACHE",
+        "third-party-licenses/unicode-segmentation-1.13.3/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "unicode-vo",
+      "version": "0.1.0",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/RazrFalcon/unicode-vo",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/unicode-vo-0.1.0/LICENSE-APACHE",
+        "third-party-licenses/unicode-vo-0.1.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "usvg",
+      "version": "0.48.1",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/resvg",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/usvg-0.48.1/LICENSE-APACHE",
+        "third-party-licenses/usvg-0.48.1/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "uuid",
+      "version": "1.28.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/uuid-rs/uuid",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/uuid-1.28.0/LICENSE-APACHE",
+        "third-party-licenses/uuid-1.28.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "vello_common",
+      "version": "0.2.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/vello",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/vello_common-0.2.0/LICENSE-APACHE",
+        "third-party-licenses/vello_common-0.2.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "vello_cpu",
+      "version": "0.2.0",
+      "license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/linebender/vello",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/vello_cpu-0.2.0/LICENSE-APACHE",
+        "third-party-licenses/vello_cpu-0.2.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "version_check",
+      "version": "0.9.5",
+      "license": "MIT/Apache-2.0",
+      "repository": "https://github.com/SergioBenitez/version_check",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/version_check-0.9.5/LICENSE-APACHE",
+        "third-party-licenses/version_check-0.9.5/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "web-time",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/daxpedda/web-time",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/web-time-1.1.0/LICENSE-APACHE",
+        "third-party-licenses/web-time-1.1.0/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "weezl",
+      "version": "0.1.12",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/image-rs/weezl",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/weezl-0.1.12/LICENSE-APACHE",
+        "third-party-licenses/weezl-0.1.12/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "windows-link",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/windows-link-0.2.1/license-apache-2.0",
+        "third-party-licenses/windows-link-0.2.1/license-mit"
+      ]
+    },
+    {
+      "name": "windows-sys",
+      "version": "0.52.0",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/windows-sys-0.52.0/license-apache-2.0",
+        "third-party-licenses/windows-sys-0.52.0/license-mit"
+      ]
+    },
+    {
+      "name": "windows-sys",
+      "version": "0.61.2",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/windows-sys-0.61.2/license-apache-2.0",
+        "third-party-licenses/windows-sys-0.61.2/license-mit"
+      ]
+    },
+    {
+      "name": "windows-targets",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/windows-targets-0.52.6/license-apache-2.0",
+        "third-party-licenses/windows-targets-0.52.6/license-mit"
+      ]
+    },
+    {
+      "name": "windows_x86_64_msvc",
+      "version": "0.52.6",
+      "license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/windows_x86_64_msvc-0.52.6/license-apache-2.0",
+        "third-party-licenses/windows_x86_64_msvc-0.52.6/license-mit"
+      ]
+    },
+    {
+      "name": "winit",
+      "version": "0.30.13",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/rust-windowing/winit",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/winit-0.30.13/LICENSE"
+      ]
+    },
+    {
+      "name": "winnow",
+      "version": "1.0.4",
+      "license": "MIT",
+      "repository": "https://github.com/winnow-rs/winnow",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/winnow-1.0.4/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "xml-rs",
+      "version": "0.8.29",
+      "license": "MIT",
+      "repository": "https://github.com/kornelski/xml-rs",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/xml-rs-0.8.29/LICENSE"
+      ]
+    },
+    {
+      "name": "xmlwriter",
+      "version": "0.1.0",
+      "license": "MIT",
+      "repository": "https://github.com/RazrFalcon/xmlwriter",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/xmlwriter-0.1.0/LICENSE"
+      ]
+    },
+    {
+      "name": "zerocopy",
+      "version": "0.8.63",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "repository": "https://github.com/google/zerocopy",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/zerocopy-0.8.63/LICENSE-APACHE",
+        "third-party-licenses/zerocopy-0.8.63/LICENSE-BSD",
+        "third-party-licenses/zerocopy-0.8.63/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "zmij",
+      "version": "1.0.23",
+      "license": "MIT",
+      "repository": "https://github.com/dtolnay/zmij",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/zmij-1.0.23/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "zune-core",
+      "version": "0.5.3",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "repository": "https://github.com/etemesi254/zune-image",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/zune-core-0.5.3/LICENSE-APACHE",
+        "third-party-licenses/zune-core-0.5.3/LICENSE-MIT",
+        "third-party-licenses/zune-core-0.5.3/LICENSE-ZLIB"
+      ]
+    },
+    {
+      "name": "zune-jpeg",
+      "version": "0.5.15",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "repository": "https://github.com/etemesi254/zune-image/tree/dev/crates/zune-jpeg",
+      "selected_license_if_fallback": null,
+      "notice_source": "crate package",
+      "files": [
+        "third-party-licenses/zune-jpeg-0.5.15/LICENSE-APACHE",
+        "third-party-licenses/zune-jpeg-0.5.15/LICENSE-MIT",
+        "third-party-licenses/zune-jpeg-0.5.15/LICENSE-ZLIB"
+      ]
+    }
+  ]
+}

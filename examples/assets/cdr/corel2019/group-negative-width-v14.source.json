@@ -1,0 +1,18 @@
+{
+  "source": "artifacts/windows-cdr-groups-20261023-05-sampled-native/nested-vectors-corel-resaved.cdr",
+  "sha256": "05d36e1a658e5fccdcbe3f5cbd26dcb3c3a094fb9afa23f39240f4137588619a",
+  "application": "CorelDRAW 2019 21.0.0.593",
+  "reason": "Corel SaveAs14 of a real reflected nested group uses negative rectangle width; supported geometry must remain editable and correctly placed",
+  "native_rectangle": {
+    "name": "v-sheared-rectangle",
+    "parent": "nested",
+    "width_local_mm": -34.6455,
+    "height_local_mm": 15.2946,
+    "SDK_bounds_mm": [
+      -0.0915,
+      224.04,
+      37.9215,
+      19.6605
+    ]
+  }
+}

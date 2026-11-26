@@ -1,0 +1,48 @@
+{
+  "scope": "Eight new Corel-created project reference documents, not a writer compatibility pass",
+  "generator": "scripts/collect-corel-content-references.ps1",
+  "corel_build": "21.0.0.593",
+  "version": 14,
+  "files": [
+    {
+      "file": "content-profile-v14.cdr",
+      "bytes": 10572,
+      "sha256": "194c5d4456f860fce03a4699d7837a94e1363e67d0677f5896339a903cbb250e"
+    },
+    {
+      "file": "grayscale-v14.cdr",
+      "bytes": 9602,
+      "sha256": "8789cbb7dd659ddbf2eff907046f87ebca96b4c10159e5f5ef9c72a80634a13d"
+    },
+    {
+      "file": "jpg-v14.cdr",
+      "bytes": 9205,
+      "sha256": "04107de068f51eba042784a216d824224f316028a9a4f376a6b526c9a5002180"
+    },
+    {
+      "file": "png-v14.cdr",
+      "bytes": 8933,
+      "sha256": "a78ce47bc73875d684c9b308de0698c23a044712e53c4b2f889f60e5a5ee59aa"
+    },
+    {
+      "file": "text-compression-v14.cdr",
+      "bytes": 39015,
+      "sha256": "ed3dfbb1d1d10960cd399d1922adaa4e6d8281906a377559689c0e5de9dc7706"
+    },
+    {
+      "file": "text-long-v14.cdr",
+      "bytes": 55991,
+      "sha256": "df7da47fe8eb30ad3f7c6110f1a9f87c7d1b7b6cc0bfd83d8fd2a682f0578630"
+    },
+    {
+      "file": "text-multiline-v14.cdr",
+      "bytes": 21710,
+      "sha256": "65161f72829b15c268aa92c6eeca6349b95afc972effcb6a8de3c11e3130465f"
+    },
+    {
+      "file": "text-v14.cdr",
+      "bytes": 36345,
+      "sha256": "261ae37f96e722999a8389aad6acded3d3f53637f636aaf59687ee381e0ffda4"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "report": 88,
+  "scope": "Byte-for-byte existing actual Corel2019 resaves; original rectangle conversion failure stays failed. No new native run.",
+  "files": [
+    {
+      "file": "primitive14-rounded-fine-corel-resaved.cdr",
+      "source": "artifacts/windows-save-concentrated-20261028-01/effective/primitive-native/primitive14-rounded-fine-corel-resaved.cdr",
+      "sha256": "a8a5093d2fdfdf4b184c74dadd96b27be424722b42c77a7dc59a39db1ea69618",
+      "bytes": 12058
+    },
+    {
+      "file": "primitive14-ordinary-grid-rect-corel-resaved.cdr",
+      "source": "artifacts/windows-save-concentrated-20261028-01/effective/primitive-native/primitive14-ordinary-grid-rect-corel-resaved.cdr",
+      "sha256": "368805c72da828f6118f68348c0f0d85b9250a2d767257c76efbabb96be851e8",
+      "bytes": 11974
+    },
+    {
+      "file": "primitive21-rounded-fine-corel-resaved.cdr",
+      "source": "artifacts/windows-save-concentrated-20261028-01/effective/primitive-native/primitive21-rounded-fine-corel-resaved.cdr",
+      "sha256": "bca63c973c9cf0c3e969ba87bccd60bd9d527f2d2fbe3ccfea970d939c7be43c",
+      "bytes": 15681
+    },
+    {
+      "file": "primitive21-ordinary-grid-rect-corel-resaved.cdr",
+      "source": "artifacts/windows-save-concentrated-20261028-01/effective/primitive-native/primitive21-ordinary-grid-rect-corel-resaved.cdr",
+      "sha256": "22a0e3ba680ff94246bda363209ecf5110beff4fa53d6e27fa68267496018564",
+      "bytes": 15556
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+{
+  "format": "arranger",
+  "format_version": 2,
+  "saved_revision": 1,
+  "document_sha256": "bbf400ae332b86511e58bb1ca40106e079e7e980d0fe9f1f0d19886a5b0ce8d2",
+  "document": {
+    "id": "main",
+    "unit": "mm",
+    "pages": [
+      {
+        "id": "page-1",
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      },
+      {
+        "id": "page-2",
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      }
+    ],
+    "objects": [
+      {
+        "id": "heading",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 15.0,
+        "y_mm": 12.0,
+        "width_mm": 175.0,
+        "height_mm": 15.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#162b3e",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "text",
+          "content": "CDR 完整性对照 / A4 · 01",
+          "font_family": "PingFang SC",
+          "font_size_mm": 7.0
+        }
+      },
+      {
+        "id": "rectangle",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 15.0,
+        "y_mm": 38.0,
+        "width_mm": 60.0,
+        "height_mm": 14.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#000000",
+          "stroke": "#eeeeee",
+          "stroke_width_mm": 0.2,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 0.0
+        }
+      },
+      {
+        "id": "round-rectangle",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 90.0,
+        "y_mm": 38.0,
+        "width_mm": 40.0,
+        "height_mm": 14.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 2.0
+        }
+      },
+      {
+        "id": "circle",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 150.0,
+        "y_mm": 36.0,
+        "width_mm": 14.0,
+        "height_mm": 14.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "none",
+          "stroke": "#162b3e",
+          "stroke_width_mm": 0.8,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "ellipse"
+        }
+      },
+      {
+        "id": "curve",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 15.0,
+        "y_mm": 68.0,
+        "width_mm": 70.0,
+        "height_mm": 20.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "none",
+          "stroke": "#287ac7",
+          "stroke_width_mm": 1.0,
+          "opacity": 1.0,
+          "stroke_linecap": "round",
+          "stroke_linejoin": "bevel"
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "path",
+          "d": "M0 20 C12 -15 42 35 70 0"
+        }
+      },
+      {
+        "id": "compound",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 115.0,
+        "y_mm": 64.0,
+        "width_mm": 35.0,
+        "height_mm": 35.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#b74d35",
+          "stroke": "#162b3e",
+          "stroke_width_mm": 0.3,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "path",
+          "d": "M0 0H35V35H0Z M10 10H25V25H10Z",
+          "fill_rule": "evenodd"
+        }
+      },
+      {
+        "id": "point-text",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 15.0,
+        "y_mm": 108.0,
+        "width_mm": 175.0,
+        "height_mm": 15.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#162b3e",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "text",
+          "content": "可编辑中文 ABC / AV fi é",
+          "font_family": "PingFang SC",
+          "font_size_mm": 5.0
+        }
+      },
+      {
+        "id": "area-text",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 15.0,
+        "y_mm": 128.0,
+        "width_mm": 80.0,
+        "height_mm": 60.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#162b3e",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "text",
+          "content": "区域文字：中文与 English 自动换行。\n保留第二行、空行与字距。\n\n末行。",
+          "font_family": "PingFang SC",
+          "font_size_mm": 4.0,
+          "layout": {
+            "mode": "area",
+            "align": "center",
+            "letter_spacing_mm": 0.15,
+            "line_height_mm": 7.0
+          }
+        }
+      },
+      {
+        "id": "text-guide",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 112.0,
+        "y_mm": 140.0,
+        "width_mm": 70.0,
+        "height_mm": 30.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "none",
+          "stroke": "#7896b5",
+          "stroke_width_mm": 0.25,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "path",
+          "d": "M0 25 C15 0 50 0 70 25"
+        }
+      },
+      {
+        "id": "on-path-text",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "width_mm": 175.0,
+        "height_mm": 15.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#162b3e",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "text",
+          "content": "沿路径文字 / Vector",
+          "font_family": "PingFang SC",
+          "font_size_mm": 4.0,
+          "text_path": {
+            "path_id": "text-guide",
+            "start_offset_mm": 2.0,
+            "baseline_offset_mm": -1.0,
+            "anchor": "start"
+          }
+        }
+      },
+      {
+        "id": "transformed-group",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 25.0,
+        "y_mm": 211.0,
+        "width_mm": 0.0,
+        "height_mm": 0.0,
+        "transform": [
+          0.94,
+          0.34,
+          -0.34,
+          0.94,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 0.7
+        },
+        "visible": true,
+        "locked": false,
+        "clip": {
+          "kind": "rect",
+          "rect_mm": [
+            0.0,
+            0.0,
+            65.0,
+            32.0
+          ]
+        },
+        "geometry": {
+          "kind": "group"
+        }
+      },
+      {
+        "id": "group-child",
+        "page_id": "page-1",
+        "parent_id": "transformed-group",
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "width_mm": 75.0,
+        "height_mm": 40.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#e9bd42",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "ellipse"
+        }
+      },
+      {
+        "id": "sheared-child",
+        "page_id": "page-1",
+        "parent_id": "transformed-group",
+        "x_mm": 10.0,
+        "y_mm": 5.0,
+        "width_mm": 30.0,
+        "height_mm": 15.0,
+        "transform": [
+          1.0,
+          0.2,
+          0.35,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7aa",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 0.0
+        }
+      },
+      {
+        "id": "locked",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 125.0,
+        "y_mm": 218.0,
+        "width_mm": 30.0,
+        "height_mm": 15.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#bc5448",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": true,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 0.0
+        }
+      },
+      {
+        "id": "hidden",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 165.0,
+        "y_mm": 218.0,
+        "width_mm": 20.0,
+        "height_mm": 15.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": false,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 0.0
+        }
+      },
+      {
+        "id": "partial-page",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": -10.0,
+        "y_mm": 265.0,
+        "width_mm": 20.0,
+        "height_mm": 12.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#a561bd",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 0.0
+        }
+      },
+      {
+        "id": "workspace-circle",
+        "page_id": "_workspace",
+        "parent_id": null,
+        "x_mm": -38.0,
+        "y_mm": 85.0,
+        "width_mm": 16.0,
+        "height_mm": 16.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "none",
+          "stroke": "#287ac7",
+          "stroke_width_mm": 0.5,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "ellipse"
+        }
+      },
+      {
+        "id": "page-two-heading",
+        "page_id": "page-2",
+        "parent_id": null,
+        "x_mm": 15.0,
+        "y_mm": 12.0,
+        "width_mm": 175.0,
+        "height_mm": 15.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#162b3e",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "text",
+          "content": "CDR 完整性对照 / A4 · 02",
+          "font_family": "PingFang SC",
+          "font_size_mm": 7.0
+        }
+      },
+      {
+        "id": "workspace-group",
+        "page_id": "_workspace",
+        "parent_id": null,
+        "x_mm": -65.0,
+        "y_mm": 125.0,
+        "width_mm": 0.0,
+        "height_mm": 0.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "group"
+        }
+      },
+      {
+        "id": "workspace-child",
+        "page_id": "_workspace",
+        "parent_id": "workspace-group",
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "width_mm": 45.0,
+        "height_mm": 20.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 0.0
+        }
+      },
+      {
+        "id": "page-two-text",
+        "page_id": "page-2",
+        "parent_id": null,
+        "x_mm": 15.0,
+        "y_mm": 250.0,
+        "width_mm": 175.0,
+        "height_mm": 15.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#162b3e",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "text",
+          "content": "第二页保留独立归属与对象 ID",
+          "font_family": "PingFang SC",
+          "font_size_mm": 5.0
+        }
+      },
+      {
+        "id": "png",
+        "page_id": "page-2",
+        "parent_id": null,
+        "x_mm": 15.0,
+        "y_mm": 60.0,
+        "width_mm": 45.0,
+        "height_mm": 40.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "image",
+          "resource_id": "png-source",
+          "clip_mm": null
+        }
+      },
+      {
+        "id": "jpeg",
+        "page_id": "page-2",
+        "parent_id": null,
+        "x_mm": 80.0,
+        "y_mm": 60.0,
+        "width_mm": 45.0,
+        "height_mm": 40.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "image",
+          "resource_id": "jpeg-source",
+          "clip_mm": null,
+          "fit": "stretch"
+        }
+      },
+      {
+        "id": "clipped-jpeg",
+        "page_id": "page-2",
+        "parent_id": null,
+        "x_mm": 145.0,
+        "y_mm": 60.0,
+        "width_mm": 45.0,
+        "height_mm": 40.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 0.6
+        },
+        "visible": true,
+        "locked": false,
+        "clip": {
+          "kind": "path",
+          "d": "M0 0H45V40H0Z M12 8H32V32H12Z",
+          "fill_rule": "evenodd"
+        },
+        "geometry": {
+          "kind": "image",
+          "resource_id": "jpeg-source",
+          "clip_mm": null,
+          "fit": "cover"
+        }
+      }
+    ],
+    "resources": {
+      "jpeg-source": {
+        "mime": "image/jpeg",
+        "sha256": "067722e90dd50fcf5ef6ad561bc17dbc39dadf9fb405099810119a2cc7624107",
+        "data_base64": "/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCABQAHgDAREAAhEBAxEB/9sAQwACAQEBAQECAQEBAgICAgIEAwICAgIFBAQDBAYFBgYGBQYGBgcJCAYHCQcGBggLCAkKCgoKCgYICwwLCgwJCgoK/9sAQwECAgICAgIFAwMFCgcGBwoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDHr+cz/VAKACgAoAKACgAoAkg719Zwv/y+/wC3f/bj/PP6ef8AzTv/AHN/+6pJX1h/nmFABQAUAFABQAUAV6/Jz/oYCgAoAKACgAoAKAJIO9fWcL/8vv8At3/24/zz+nn/AM07/wBzf/uqSV9Yf55hQAUAFABQAUAFAFevyc/6GAoAKACgAoAKACgCSDvX1nC//L7/ALd/9uP88/p5/wDNO/8Ac3/7qklfWH+eYUAFABQAUAFABQBXr8nP+hgKACgAoAKACgAoAkg719Zwv/y+/wC3f/bj/PP6ef8AzTv/AHN/+6pJX1h/nmFABQAUAFABQAUAV6/Jz/oYCgAoAKACgAoAKAJIO9fWcL/8vv8At3/24/zz+nn/AM07/wBzf/uqSV9Yf55hQAUAFABQAUAFAHjdf6EH2AUAFABQAUAFABQB9if8EnP+Z+/7hX/t5X8D/Th/5kH/AHN/+6x/SX0e/wDmZ/8AcH/3KfYlfwOf0kFABQAUAFABQAUAfjvX++B/m2FABQAUAFABQAUAfYn/AASc/wCZ+/7hX/t5X8D/AE4f+ZB/3N/+6x/SX0e/+Zn/ANwf/cp9iV/A5/SQUAFABQAUAFABQB+O9f74H+bYUAFABQAUAFABQB9if8EnP+Z+/wC4V/7eV/A/04f+ZB/3N/8Ausf0l9Hv/mZ/9wf/AHKfYlfwOf0kFABQAUAFABQAUAfjvX++B/m2FABQAUAFABQAUAfYn/BJz/mfv+4V/wC3lfwP9OH/AJkH/c3/AO6x/SX0e/8AmZ/9wf8A3KfYlfwOf0kFABQAUAFABQAUAfjvX++B/m2FABQAUAFABQAUAfYn/BJz/mfv+4V/7eV/A/04f+ZB/wBzf/usf0l9Hv8A5mf/AHB/9yn2JX8Dn9JBQAUAFABQAUAFAH//2Q=="
+      },
+      "png-source": {
+        "mime": "image/png",
+        "sha256": "4c6960407ca9992533ab4822fb9d92eaa78416ad2dad131e8e3e38bca0c8aeb4",
+        "data_base64": "iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAABuklEQVR4Ae3AA6AkWZbG8f937o3IzKdyS2Oubdu2bdu2bdu2bWmMnpZKr54yMyLu+Xa3anqmhztr1a9efNNXM/+PvNG7PvZz+P+D4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/ywiu+r+M4Kr/y9BLfPhvm/9H/uSdv0j8/0Fw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9lBFf9X0Zw1f9l/CNjkghiQNjD6QAAAABJRU5ErkJggg=="
+      }
+    }
+  }
+}

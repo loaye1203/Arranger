@@ -1,0 +1,174 @@
+{
+  "scope": "New project-only CorelDRAW 2019 reference documents; no Owner documents or font files",
+  "corel_major": 21,
+  "corel_build": "21.0.0.593",
+  "generator": "scripts/collect-corel-references.ps1",
+  "measurement_receipt": "reports/windows/WIN-CDR-20261022-01/reference-success/result.json",
+  "files": [
+    {
+      "file": "circle-curve-v14-edited.cdr",
+      "bytes": 11425,
+      "sha256": "5e56f5bb6a7ff6b3fe5911c8b9781f9e5453c136831bab8daab2d38f8407d1c5"
+    },
+    {
+      "file": "circle-curve-v14.cdr",
+      "bytes": 10940,
+      "sha256": "7796d04a15057b4ce29dee4bfd1987336d2775fa21b879ee90ba9ef164965fdf"
+    },
+    {
+      "file": "circle-curve-v21-edited.cdr",
+      "bytes": 15829,
+      "sha256": "48c66dac75a2f1f207d4d83a3c1909ae3f6229ecefbcc8a00123915d61afc3a1"
+    },
+    {
+      "file": "circle-curve-v21.cdr",
+      "bytes": 15275,
+      "sha256": "1bd726dd1a1d06c3053f4803625c7ce6324ccaab05a1f6cd9522e53719fec799"
+    },
+    {
+      "file": "circle-curve-vcurrent-edited.cdr",
+      "bytes": 15837,
+      "sha256": "acd0bea4ba6aa0098adcc2669ced30445764e010063627ea54417eff8c64c1cd"
+    },
+    {
+      "file": "circle-curve-vcurrent.cdr",
+      "bytes": 15277,
+      "sha256": "61c4e49932b74a80079a10d390ba1f9525a7a755e310fec2e7ba34c92495639d"
+    },
+    {
+      "file": "circle-v14-edited.cdr",
+      "bytes": 10990,
+      "sha256": "264b672a0010663c4ded72e8bc576e372c56c9a975ff641a4906fb2defa7b25d"
+    },
+    {
+      "file": "circle-v14.cdr",
+      "bytes": 10874,
+      "sha256": "31e9b026a58bfeb3c1cb42cd024b442c1240490da6729a9fe0a66fe5090fbb89"
+    },
+    {
+      "file": "circle-v21-edited.cdr",
+      "bytes": 15342,
+      "sha256": "b1452a82782d5eafe760172dd6b56c0a0d1a85d4b0250526086cb0bb73dafd92"
+    },
+    {
+      "file": "circle-v21.cdr",
+      "bytes": 15208,
+      "sha256": "26282e9bd34d40c523e6f9db98523a204fb2338aeb9dcdfdeb1851274baa8483"
+    },
+    {
+      "file": "circle-vcurrent-edited.cdr",
+      "bytes": 15340,
+      "sha256": "933a5b7af0219eb4c2e8d6021e34bacdee706286be3002b000fc6fcdc00aef34"
+    },
+    {
+      "file": "circle-vcurrent.cdr",
+      "bytes": 15204,
+      "sha256": "137410d3bba5cf801348a04fcb86047027b1653960c9ef76cd5b24bdd2292cc7"
+    },
+    {
+      "file": "empty-v14.cdr",
+      "bytes": 6463,
+      "sha256": "d925dc8487cb2cc4dc9d0a2c74f0b76a97471237c2ee1b10f6f0a630a7fd47e3"
+    },
+    {
+      "file": "empty-v21.cdr",
+      "bytes": 9793,
+      "sha256": "5b8b1df3eb8cb35f8898c0fb560f303a02664da2af656e2eb760ea18f8bdc3db"
+    },
+    {
+      "file": "empty-vcurrent.cdr",
+      "bytes": 9787,
+      "sha256": "efd0efc6a2b9be7e0bd50dcffe4b052f427a8ee29c0e7f5238c7656a565754b1"
+    },
+    {
+      "file": "rectangle-v14-edited.cdr",
+      "bytes": 8412,
+      "sha256": "2ff85cd65a16c497892f8b64649378f3ab2d71a319f50b40ae0b17164c69577c"
+    },
+    {
+      "file": "rectangle-v14.cdr",
+      "bytes": 8291,
+      "sha256": "d2a47588c258e29e035fce4245df7144e5cf728984c892535e628dcbe09c9ffa"
+    },
+    {
+      "file": "rectangle-v21-edited.cdr",
+      "bytes": 10903,
+      "sha256": "8821a474276fd28dbd03bbbf37241b491e03e761d7e5d1a4ff6c4191e97ca625"
+    },
+    {
+      "file": "rectangle-v21.cdr",
+      "bytes": 10719,
+      "sha256": "1ab8b18e2539407d7dd22d86fe575d5e49f3e62ddc47a48f3fd4862042cf4fdf"
+    },
+    {
+      "file": "rectangle-vcurrent-edited.cdr",
+      "bytes": 10903,
+      "sha256": "44e86c06908272d20016ca6802a5847d84957df88b6534cc0a177f307c9bc1e3"
+    },
+    {
+      "file": "rectangle-vcurrent.cdr",
+      "bytes": 10713,
+      "sha256": "2684fcc79132a3fe3e71d0a871b781946eaef58d2a9cef25925ea5b28caab9a4"
+    },
+    {
+      "file": "text-v14-edited.cdr",
+      "bytes": 48889,
+      "sha256": "2085b49df6ed36a4a24656be4aadaf211249d32d493e64d2755a34543c4fd0de"
+    },
+    {
+      "file": "text-v14.cdr",
+      "bytes": 36673,
+      "sha256": "f338aecdb9f293f1100ed2625334b49d7315edf9b8c051bc8c982be6bbe80920"
+    },
+    {
+      "file": "text-v21-edited.cdr",
+      "bytes": 54719,
+      "sha256": "a02d10a49f64a6d6cf68e237b86a433d3cb3c374442ad98b83e78868279696c7"
+    },
+    {
+      "file": "text-v21.cdr",
+      "bytes": 42614,
+      "sha256": "3c1fe7fb09cbcc462d8ed38ada5e3e80257d82b39299e0375e51f1d185aee1ad"
+    },
+    {
+      "file": "text-vcurrent-edited.cdr",
+      "bytes": 54719,
+      "sha256": "460e1924bd966b24af254fe41fd141b6a7f0ca232c8e8e681047014cbbfea0c4"
+    },
+    {
+      "file": "text-vcurrent.cdr",
+      "bytes": 42612,
+      "sha256": "87e1069884031dcf083f2706f612b55013bf9fb8f49f31ab3653ff1058fb49b0"
+    },
+    {
+      "file": "two-pages-v14-edited.cdr",
+      "bytes": 10721,
+      "sha256": "200ee4b6198dee848031f3c85cb3cca4324c750349401dabe2db4029b447cce1"
+    },
+    {
+      "file": "two-pages-v14.cdr",
+      "bytes": 10614,
+      "sha256": "b676965e89ed24bc9391924c5cf2f7a27267774f6f1cd610604dd1a2dcb7d124"
+    },
+    {
+      "file": "two-pages-v21-edited.cdr",
+      "bytes": 15561,
+      "sha256": "8de128aa7ad8ad76057088b6459c7844b197aab3aaee0faf24e46a0c7aff0c34"
+    },
+    {
+      "file": "two-pages-v21.cdr",
+      "bytes": 15391,
+      "sha256": "89d9a93a0567cf8a33d118f4e8aef6b328085dd9a940c05d8adc356339d0c2a0"
+    },
+    {
+      "file": "two-pages-vcurrent-edited.cdr",
+      "bytes": 15561,
+      "sha256": "1fab2d0d8b6594568c9bf44863ed1eb52220a7efe41bd4f307c023a7f58b4fd1"
+    },
+    {
+      "file": "two-pages-vcurrent.cdr",
+      "bytes": 15394,
+      "sha256": "9a27ea6264de87951e736a6887d1c5e4f3008102ac2b5119e0cb2c5c7db669e6"
+    }
+  ]
+}

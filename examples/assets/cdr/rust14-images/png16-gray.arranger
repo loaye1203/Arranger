@@ -1,0 +1,57 @@
+{
+  "format": "arranger",
+  "format_version": 1,
+  "saved_revision": 1,
+  "document_sha256": "3804bc3f5195f4e01156f06b1556882a8776723460c570d2704eec6169cad053",
+  "document": {
+    "id": "metadata-png16-gray",
+    "unit": "mm",
+    "pages": [
+      {
+        "id": "page-1",
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      }
+    ],
+    "objects": [
+      {
+        "id": "metadata-image",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 15.0,
+        "y_mm": 20.0,
+        "width_mm": 25.0,
+        "height_mm": 12.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "none",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "image",
+          "resource_id": "original",
+          "clip_mm": null,
+          "fit": "stretch"
+        }
+      }
+    ],
+    "resources": {
+      "original": {
+        "mime": "image/png",
+        "sha256": "f1c9db4dfc05b540b47fad8d304ac39af66a8fc9bb25249b3072c23a8b85fd7c",
+        "data_base64": "iVBORw0KGgoAAAANSUhEUgAAAA0AAAAHEAAAAACmi0SFAAAAFUlEQVR4nGNkYGDEBXh5ccmwDA4pAH54AVs9fBZLAAAAAElFTkSuQmCC"
+      }
+    }
+  }
+}

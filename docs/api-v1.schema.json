@@ -1,0 +1,1970 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arranger.local/schema/api-v1",
+  "title": "Arranger protocol version 1 request",
+  "type": "object",
+  "properties": {
+    "protocol_version": {
+      "const": 1
+    },
+    "request_id": {},
+    "command": {
+      "$ref": "#/$defs/Command"
+    }
+  },
+  "required": [
+    "protocol_version",
+    "command"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "Page": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+        },
+        "width_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "id",
+        "width_mm",
+        "height_mm"
+      ],
+      "additionalProperties": false
+    },
+    "Style": {
+      "type": "object",
+      "properties": {
+        "fill": {
+          "type": "string",
+          "pattern": "^(none|#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?|cmyk\\((?:100|[1-9]?[0-9]),(?:100|[1-9]?[0-9]),(?:100|[1-9]?[0-9]),(?:100|[1-9]?[0-9])\\)|cmyk255\\((?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9]),(?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9]),(?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9]),(?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\\))$"
+        },
+        "stroke": {
+          "type": "string",
+          "pattern": "^(none|#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?|cmyk\\((?:100|[1-9]?[0-9]),(?:100|[1-9]?[0-9]),(?:100|[1-9]?[0-9]),(?:100|[1-9]?[0-9])\\)|cmyk255\\((?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9]),(?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9]),(?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9]),(?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\\))$"
+        },
+        "stroke_width_mm": {
+          "type": "number",
+          "minimum": 0
+        },
+        "opacity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "stroke_linecap": {
+          "enum": [
+            "butt",
+            "round",
+            "square"
+          ],
+          "default": "butt"
+        },
+        "stroke_linejoin": {
+          "enum": [
+            "miter",
+            "round",
+            "bevel"
+          ],
+          "default": "miter"
+        },
+        "stroke_miterlimit": {
+          "type": "number",
+          "minimum": 1,
+          "default": 4
+        },
+        "stroke_scale_with_object": {
+          "type": "boolean",
+          "default": true,
+          "description": "false fixes the circular vector stroke width in page millimetres under object and parent transforms; active text strokes currently require true"
+        },
+        "stroke_fixed_nib": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FixedStrokeNib"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "fill",
+        "stroke",
+        "stroke_width_mm",
+        "opacity"
+      ],
+      "additionalProperties": false
+    },
+    "Resource": {
+      "type": "object",
+      "properties": {
+        "mime": {
+          "enum": [
+            "image/png",
+            "image/jpeg"
+          ]
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "data_base64": {
+          "type": "string",
+          "contentEncoding": "base64"
+        }
+      },
+      "required": [
+        "mime",
+        "sha256",
+        "data_base64"
+      ],
+      "additionalProperties": false
+    },
+    "Geometry": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "rect"
+            },
+            "radius_mm": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "kind"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "ellipse"
+            }
+          },
+          "required": [
+            "kind"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "path"
+            },
+            "d": {
+              "type": "string"
+            },
+            "fill_rule": {
+              "$ref": "#/$defs/FillRule",
+              "default": "nonzero"
+            }
+          },
+          "required": [
+            "kind",
+            "d"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "text"
+            },
+            "content": {
+              "type": "string"
+            },
+            "font_family": {
+              "type": "string",
+              "minLength": 1
+            },
+            "font_size_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "text_path": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/TextOnPath"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null
+            },
+            "layout": {
+              "$ref": "#/$defs/TextLayoutOptions"
+            }
+          },
+          "required": [
+            "kind",
+            "content",
+            "font_family",
+            "font_size_mm"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "image"
+            },
+            "resource_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "clip_mm": {
+              "anyOf": [
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "fit": {
+              "enum": [
+                "contain",
+                "stretch",
+                "cover"
+              ],
+              "default": "contain"
+            }
+          },
+          "required": [
+            "kind",
+            "resource_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "group"
+            }
+          },
+          "required": [
+            "kind"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "Object": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+        },
+        "page_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$",
+          "description": "Printable page ID, or reserved _workspace for the document-wide non-printing pasteboard."
+        },
+        "parent_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "x_mm": {
+          "type": "number"
+        },
+        "y_mm": {
+          "type": "number"
+        },
+        "width_mm": {
+          "type": "number",
+          "minimum": 0
+        },
+        "height_mm": {
+          "type": "number",
+          "minimum": 0
+        },
+        "transform": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 6,
+          "maxItems": 6
+        },
+        "style": {
+          "$ref": "#/$defs/Style"
+        },
+        "visible": {
+          "type": "boolean"
+        },
+        "locked": {
+          "type": "boolean"
+        },
+        "geometry": {
+          "$ref": "#/$defs/Geometry"
+        },
+        "clip": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Clip"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "page_id",
+        "width_mm",
+        "height_mm",
+        "geometry"
+      ],
+      "additionalProperties": false
+    },
+    "ObjectPatch": {
+      "type": "object",
+      "properties": {
+        "x_mm": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "y_mm": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "width_mm": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "height_mm": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "transform": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 6,
+              "maxItems": 6
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "style": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Style"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visible": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "clip": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Clip"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "Operation": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "object_create"
+            },
+            "object": {
+              "$ref": "#/$defs/Object"
+            }
+          },
+          "required": [
+            "type",
+            "object"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "object_update"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "patch": {
+              "$ref": "#/$defs/ObjectPatch"
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "patch"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "object_place"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "page_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "page_id"
+          ],
+          "additionalProperties": false,
+          "description": "After geometry edits, assign the root and its descendants to this printable page if source bounds touch it, otherwise to _workspace. Atomic in the same batch."
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "object_duplicate"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "new_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "descendant_ids": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string",
+                "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+              },
+              "description": "Optional mapping of source descendant IDs to destination IDs. Defaults to new_id.1, new_id.2 in source stacking order."
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "new_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "object_delete"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "object_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "object_reparent"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "parent_id": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "parent_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "object_reorder"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "index": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "index"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "object_lock"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "locked": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "locked"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "page_add"
+            },
+            "page": {
+              "$ref": "#/$defs/Page"
+            }
+          },
+          "required": [
+            "type",
+            "page"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "page_resize"
+            },
+            "page_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "height_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          },
+          "required": [
+            "type",
+            "page_id",
+            "width_mm",
+            "height_mm"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "page_delete"
+            },
+            "page_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "page_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "resource_put"
+            },
+            "resource_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "resource": {
+              "$ref": "#/$defs/Resource"
+            }
+          },
+          "required": [
+            "type",
+            "resource_id",
+            "resource"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "object_to_path"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "object_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "path_set"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "elements": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/PathElement"
+              }
+            },
+            "fill_rule": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/FillRule"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "elements"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "path_node_update"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "index": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "element": {
+              "$ref": "#/$defs/PathElement"
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "index",
+            "element"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "path_node_insert"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "index": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "element": {
+              "$ref": "#/$defs/PathElement"
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "index",
+            "element"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "path_node_delete"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "index": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "index"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "path_subpath_set_closed"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "subpath_index": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "closed": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "subpath_index",
+            "closed"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "path_split_segment"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "index": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "t": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "exclusiveMaximum": 1
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "index",
+            "t"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "path_boolean"
+            },
+            "left_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "right_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "result_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "operation": {
+              "$ref": "#/$defs/BooleanOp"
+            },
+            "remove_inputs": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          "required": [
+            "type",
+            "left_id",
+            "right_id",
+            "result_id",
+            "operation"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "text_set_path"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "text_path": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/TextOnPath"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "object_id",
+            "text_path"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "text_to_path"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "object_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "image_import"
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "object": {
+              "$ref": "#/$defs/Object"
+            }
+          },
+          "required": [
+            "type",
+            "path",
+            "object"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "resource_delete"
+            },
+            "resource_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "resource_id"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "Command": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "describe"
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "documents"
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "document_new"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "height_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "unit": {
+              "const": "mm"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "width_mm",
+            "height_mm",
+            "unit"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "document_open"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "document_recover_backup"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "path": {
+              "type": "string",
+              "description": "Absolute original .arranger path or selected .arranger.bak; read-only recovery into a new unbound session"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "cdr_import"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "cdr_recover_backup"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "document_close"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "expected_revision": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "discard_changes": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "expected_revision"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "snapshot"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "document_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "object_get"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "object_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "hit_test"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "page_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "point_mm": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "page_id",
+            "point_mm"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "batch"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "expected_revision": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "unit": {
+              "const": "mm"
+            },
+            "operations": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Operation"
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "expected_revision",
+            "unit",
+            "operations"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "begin"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "expected_revision": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "unit": {
+              "const": "mm"
+            },
+            "lease_ms": {
+              "type": "integer",
+              "minimum": 10,
+              "maximum": 60000
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "expected_revision",
+            "unit"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "execute"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "transaction_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "operation": {
+              "$ref": "#/$defs/Operation"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "transaction_id",
+            "operation"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "commit"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "transaction_id": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "transaction_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "rollback"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "transaction_id": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "transaction_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "undo"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "expected_revision": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "expected_revision"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "redo"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "expected_revision": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "expected_revision"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "save"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "expected_revision": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "path": {
+              "type": "string"
+            },
+            "overwrite": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "expected_revision",
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "export"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "page_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "format": {
+              "enum": [
+                "svg",
+                "png",
+                "pdf",
+                "cdr14",
+                "cdr21"
+              ]
+            },
+            "path": {
+              "type": "string"
+            },
+            "overwrite": {
+              "type": "boolean"
+            },
+            "dpi": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 2400
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "page_id",
+            "format",
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "path_get"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "object_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "text_measure"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "object_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "object_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "resource_get"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "resource_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "resource_id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "save_check"
+            },
+            "document_id": {
+              "type": "string"
+            },
+            "format": {
+              "enum": [
+                "arranger",
+                "cdr14",
+                "cdr21"
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "format"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "cdr_export"
+            },
+            "document_id": {
+              "type": "string"
+            },
+            "path": {
+              "type": "string"
+            },
+            "format": {
+              "enum": [
+                "cdr14",
+                "cdr21"
+              ],
+              "default": "cdr14"
+            },
+            "overwrite": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "pdf_export"
+            },
+            "document_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+            },
+            "path": {
+              "type": "string"
+            },
+            "overwrite": {
+              "type": "boolean"
+            },
+            "dpi": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 2400
+            },
+            "page_ids": {
+              "type": [
+                "array",
+                "null"
+              ],
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "uniqueItems": true,
+              "description": "Omitted/null means all document pages; explicit IDs select output order, including blank pages."
+            },
+            "expected_revision": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            }
+          },
+          "required": [
+            "type",
+            "document_id",
+            "path"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "FillRule": {
+      "enum": [
+        "nonzero",
+        "evenodd"
+      ]
+    },
+    "BooleanOp": {
+      "enum": [
+        "union",
+        "intersection",
+        "difference",
+        "xor"
+      ]
+    },
+    "PathElement": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "move_to"
+            },
+            "to": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "type",
+            "to"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "line_to"
+            },
+            "to": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "type",
+            "to"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "quad_to"
+            },
+            "control": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "to": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "type",
+            "control",
+            "to"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "cubic_to"
+            },
+            "control1": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "control2": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "to": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "type",
+            "control1",
+            "control2",
+            "to"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "close"
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "TextOnPath": {
+      "type": "object",
+      "properties": {
+        "path_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.-]{0,127}$"
+        },
+        "start_offset_mm": {
+          "type": "number",
+          "default": 0
+        },
+        "baseline_offset_mm": {
+          "type": "number",
+          "default": 0
+        },
+        "anchor": {
+          "enum": [
+            "start",
+            "middle",
+            "end"
+          ],
+          "default": "start"
+        }
+      },
+      "required": [
+        "path_id"
+      ],
+      "additionalProperties": false
+    },
+    "TextLayoutOptions": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            "point",
+            "area"
+          ],
+          "default": "point"
+        },
+        "align": {
+          "enum": [
+            "left",
+            "center",
+            "right"
+          ],
+          "default": "left"
+        },
+        "letter_spacing_mm": {
+          "type": "number",
+          "default": 0
+        },
+        "line_height_mm": {
+          "anyOf": [
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "additionalProperties": false
+    },
+    "Clip": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "rect"
+            },
+            "rect_mm": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "type": "number",
+                  "minimum": 0
+                }
+              ],
+              "minItems": 4,
+              "maxItems": 4
+            }
+          },
+          "required": [
+            "kind",
+            "rect_mm"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "path"
+            },
+            "d": {
+              "type": "string"
+            },
+            "fill_rule": {
+              "enum": [
+                "nonzero",
+                "evenodd"
+              ],
+              "default": "nonzero"
+            }
+          },
+          "required": [
+            "kind",
+            "d"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "FixedStrokeNib": {
+      "type": "object",
+      "properties": {
+        "stretch_percent": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 99
+        },
+        "angle_millionth_degrees": {
+          "type": "integer",
+          "minimum": -2147483648,
+          "maximum": 2147483647
+        }
+      },
+      "required": [
+        "stretch_percent",
+        "angle_millionth_degrees"
+      ],
+      "additionalProperties": false,
+      "description": "Page-fixed elliptical pen: major width is stroke_width_mm; angle0 vertical,90 millionths horizontal. Requires stroke_scale_with_object=false."
+    }
+  }
+}

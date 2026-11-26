@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "case": "envelope-identity-v14",
+      "role": "control",
+      "file": "envelope-identity-v14-control-outlines.cdr",
+      "sha256": "710290dbb250554eeda40c0cd92173855090ade4a6f3b1f87a26d81fa36059e9",
+      "passed": true,
+      "failure": null,
+      "source_version": 21,
+      "page_left_top": [
+        0.0713,
+        297.0053
+      ],
+      "page_mm": [
+        210.0,
+        297.0
+      ],
+      "sdk_node": [
+        18.393,
+        205.1917
+      ]
+    },
+    {
+      "case": "envelope-identity-v21",
+      "role": "control",
+      "file": "envelope-identity-v21-control-outlines.cdr",
+      "sha256": "a52542d699443e5a614601c49e4ebe96f78df08402832859e660b4727bbfc6be",
+      "passed": true,
+      "failure": null,
+      "source_version": 21,
+      "page_left_top": [
+        0.0,
+        297.0
+      ],
+      "page_mm": [
+        210.0,
+        297.0
+      ],
+      "sdk_node": [
+        18.393,
+        205.1917
+      ]
+    }
+  ],
+  "scope": "Existing Windows96 real saved files and actual SDK page/node witnesses; no new Corel operation"
+}

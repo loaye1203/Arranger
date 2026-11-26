@@ -1,0 +1,138 @@
+[
+  {
+    "file": "cmyk-v14-edited.cdr",
+    "native_version": 1400,
+    "native_model": 3,
+    "flags": 1,
+    "dimensions": [
+      13,
+      9
+    ],
+    "planes": 1,
+    "bits_per_pixel": 32,
+    "stride": 52,
+    "pixel_bytes": 468,
+    "pixel_sha256": "9fc7fb19e0583a8048af94ccd07a2398980a01510cb24aa85488257caef9b9f4",
+    "first64_pixel_bytes": "18b858e829c17ded3acaa2f24bd3c7f75cdcecfc6de511017eee36068ff75b0ba0008010b109a515c212ca1ad31bef1fe424142415a14dcb26aa72d037b397d5",
+    "source_sha256": "ed9e7752d2ad670b598eb53689a91a64b8e05bf1c07af88aa7fa7aee874f49af"
+  },
+  {
+    "file": "cmyk-v14.cdr",
+    "native_version": 1400,
+    "native_model": 3,
+    "flags": 1,
+    "dimensions": [
+      13,
+      9
+    ],
+    "planes": 1,
+    "bits_per_pixel": 32,
+    "stride": 52,
+    "pixel_bytes": 468,
+    "pixel_sha256": "9fc7fb19e0583a8048af94ccd07a2398980a01510cb24aa85488257caef9b9f4",
+    "first64_pixel_bytes": "18b858e829c17ded3acaa2f24bd3c7f75cdcecfc6de511017eee36068ff75b0ba0008010b109a515c212ca1ad31bef1fe424142415a14dcb26aa72d037b397d5",
+    "source_sha256": "84f69b6d7d08e8506a9868e1930610f1a5df843af4342525c07a6ec3f2d42138"
+  },
+  {
+    "file": "cmyk-v21-edited.cdr",
+    "native_version": 2100,
+    "native_model": 3,
+    "flags": 1,
+    "dimensions": [
+      13,
+      9
+    ],
+    "planes": 1,
+    "bits_per_pixel": 32,
+    "stride": 52,
+    "pixel_bytes": 468,
+    "pixel_sha256": "9fc7fb19e0583a8048af94ccd07a2398980a01510cb24aa85488257caef9b9f4",
+    "first64_pixel_bytes": "18b858e829c17ded3acaa2f24bd3c7f75cdcecfc6de511017eee36068ff75b0ba0008010b109a515c212ca1ad31bef1fe424142415a14dcb26aa72d037b397d5",
+    "source_sha256": "2340c5f34c1007348cc3235a3ba4a7f95db113dddb05bee3cea598f2010be5b5"
+  },
+  {
+    "file": "cmyk-v21.cdr",
+    "native_version": 2100,
+    "native_model": 3,
+    "flags": 1,
+    "dimensions": [
+      13,
+      9
+    ],
+    "planes": 1,
+    "bits_per_pixel": 32,
+    "stride": 52,
+    "pixel_bytes": 468,
+    "pixel_sha256": "9fc7fb19e0583a8048af94ccd07a2398980a01510cb24aa85488257caef9b9f4",
+    "first64_pixel_bytes": "18b858e829c17ded3acaa2f24bd3c7f75cdcecfc6de511017eee36068ff75b0ba0008010b109a515c212ca1ad31bef1fe424142415a14dcb26aa72d037b397d5",
+    "source_sha256": "e5786a95e8655b959dfb417771df8fcd1f7506e759cd4482bf82059e084d7806"
+  },
+  {
+    "file": "gray16-v14-edited.cdr",
+    "native_version": 1400,
+    "native_model": 5,
+    "flags": 1,
+    "dimensions": [
+      13,
+      9
+    ],
+    "planes": 1,
+    "bits_per_pixel": 8,
+    "stride": 16,
+    "pixel_bytes": 144,
+    "pixel_sha256": "0319071249d8ecb341ce37e5cbceddc6289bb6c4063cfb0372a454015dbc7717",
+    "first64_pixel_bytes": "9c9d9e9fa0a1a2a3a4a5a6a7a800000088898a8b8c8d8e8f909192939400430075767778797a7b7c7d7e7f80810043006162636465666768696a6b6c6d005000",
+    "source_sha256": "17cc9d577944022c2530ef115eebd735864061bc31f7e43ed8e53cd2640fd2cf"
+  },
+  {
+    "file": "gray16-v14.cdr",
+    "native_version": 1400,
+    "native_model": 5,
+    "flags": 1,
+    "dimensions": [
+      13,
+      9
+    ],
+    "planes": 1,
+    "bits_per_pixel": 8,
+    "stride": 16,
+    "pixel_bytes": 144,
+    "pixel_sha256": "0319071249d8ecb341ce37e5cbceddc6289bb6c4063cfb0372a454015dbc7717",
+    "first64_pixel_bytes": "9c9d9e9fa0a1a2a3a4a5a6a7a800000088898a8b8c8d8e8f909192939400430075767778797a7b7c7d7e7f80810043006162636465666768696a6b6c6d005000",
+    "source_sha256": "d43172f20827814d65b04399ad31c498d2b68866739410ed0e42fc275b720cc9"
+  },
+  {
+    "file": "gray16-v21-edited.cdr",
+    "native_version": 2100,
+    "native_model": 5,
+    "flags": 1,
+    "dimensions": [
+      13,
+      9
+    ],
+    "planes": 1,
+    "bits_per_pixel": 8,
+    "stride": 16,
+    "pixel_bytes": 144,
+    "pixel_sha256": "9be9da9fb87b27c069f59e710e55edfa7173709d12d330eb32ebc4cf9e3087a2",
+    "first64_pixel_bytes": "9c9d9e9fa0a1a2a3a4a5a6a7a800000088898a8b8c8d8e8f909192939400430075767778797a7b7c7d7e7f80810043006162636465666768696a6b6c6d005000",
+    "source_sha256": "11b70c415775d2dd5271ef0e83722b741a039586f99dd70b584e6dd1f316949b"
+  },
+  {
+    "file": "gray16-v21.cdr",
+    "native_version": 2100,
+    "native_model": 5,
+    "flags": 1,
+    "dimensions": [
+      13,
+      9
+    ],
+    "planes": 1,
+    "bits_per_pixel": 8,
+    "stride": 16,
+    "pixel_bytes": 144,
+    "pixel_sha256": "9be9da9fb87b27c069f59e710e55edfa7173709d12d330eb32ebc4cf9e3087a2",
+    "first64_pixel_bytes": "9c9d9e9fa0a1a2a3a4a5a6a7a800000088898a8b8c8d8e8f909192939400430075767778797a7b7c7d7e7f80810043006162636465666768696a6b6c6d005000",
+    "source_sha256": "ee053184a8a496bc85b84caa90b9286ae087d327908c3229b434c137b4392aa2"
+  }
+]

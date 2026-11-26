@@ -1,0 +1,26 @@
+[package]
+name = "arranger-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[features]
+test-hooks = []
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+base64.workspace = true
+kurbo.workspace = true
+linesweeper.workspace = true
+resvg.workspace = true
+harfrust.workspace = true
+roxmltree.workspace = true
+unicode-segmentation.workspace = true
+image.workspace = true
+zune-jpeg.workspace = true
+flate2.workspace = true
+skia-safe.workspace = true

@@ -1,0 +1,22 @@
+{
+  "source": "artifacts/windows-cdr-groups-20261023-10-plain-native/inputs/group-plain-v14.cdr",
+  "sha256": "a4991ff257f8282313ef54853d742479778f99e952272ec21f70469b172ff4c0",
+  "application": "CorelDRAW 2019 21.0.0.593",
+  "group": "outer",
+  "own_group_transform_records": 0,
+  "SDK_member_bounds_mm": {
+    "rect": [
+      19.9287,
+      77.0053,
+      60.0,
+      24.0
+    ],
+    "ellipse": [
+      49.9287,
+      83.0053,
+      30.0,
+      18.0
+    ]
+  },
+  "scope": "Actual ordinary native group; absent bookkeeping transform is valid, members still have their own transforms"
+}

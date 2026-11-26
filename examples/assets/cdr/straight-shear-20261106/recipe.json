@@ -1,0 +1,1513 @@
+{
+  "profile": "straight-shear-frame",
+  "version": 1,
+  "cases": [
+    {
+      "id": "shear14-zero",
+      "name": "zero-fitted",
+      "native_version": 14,
+      "variant": "fitted",
+      "pair": "14-zero",
+      "shear": 0.0,
+      "baseline_mm": 80.0,
+      "document": {
+        "id": "shear14-zero",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              -0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": {
+                "path_id": "guide",
+                "start_offset_mm": 30.0,
+                "baseline_offset_mm": 0.0,
+                "anchor": "start"
+              }
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear14-zero-reference",
+      "name": "zero-reference",
+      "native_version": 14,
+      "variant": "reference",
+      "pair": "14-zero",
+      "shear": 0.0,
+      "baseline_mm": 80.0,
+      "document": {
+        "id": "shear14-zero-reference",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 50.0,
+            "y_mm": 74.0,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              -0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": null
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear14-positive",
+      "name": "positive-fitted",
+      "native_version": 14,
+      "variant": "fitted",
+      "pair": "14-positive",
+      "shear": 0.3249196962329004,
+      "baseline_mm": 80.0,
+      "document": {
+        "id": "shear14-positive",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.3249196962329004,
+              1.0,
+              -25.993575698632032,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": {
+                "path_id": "guide",
+                "start_offset_mm": 30.0,
+                "baseline_offset_mm": 0.0,
+                "anchor": "start"
+              }
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear14-positive-reference",
+      "name": "positive-reference",
+      "native_version": 14,
+      "variant": "reference",
+      "pair": "14-positive",
+      "shear": 0.3249196962329004,
+      "baseline_mm": 80.0,
+      "document": {
+        "id": "shear14-positive-reference",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 50.0,
+            "y_mm": 74.0,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.3249196962329004,
+              1.0,
+              -25.993575698632032,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": null
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear14-negative-offset",
+      "name": "negative-offset-fitted",
+      "native_version": 14,
+      "variant": "fitted",
+      "pair": "14-negative-offset",
+      "shear": -0.3249196962329004,
+      "baseline_mm": 81.25,
+      "document": {
+        "id": "shear14-negative-offset",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              -0.3249196962329004,
+              1.0,
+              26.399725318923156,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": {
+                "path_id": "guide",
+                "start_offset_mm": 30.0,
+                "baseline_offset_mm": 1.25,
+                "anchor": "start"
+              }
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear14-negative-offset-reference",
+      "name": "negative-offset-reference",
+      "native_version": 14,
+      "variant": "reference",
+      "pair": "14-negative-offset",
+      "shear": -0.3249196962329004,
+      "baseline_mm": 81.25,
+      "document": {
+        "id": "shear14-negative-offset-reference",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 50.0,
+            "y_mm": 75.25,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              -0.3249196962329004,
+              1.0,
+              26.399725318923156,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": null
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear21-zero",
+      "name": "zero-fitted",
+      "native_version": 21,
+      "variant": "fitted",
+      "pair": "21-zero",
+      "shear": 0.0,
+      "baseline_mm": 80.0,
+      "document": {
+        "id": "shear21-zero",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              -0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": {
+                "path_id": "guide",
+                "start_offset_mm": 30.0,
+                "baseline_offset_mm": 0.0,
+                "anchor": "start"
+              }
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear21-zero-reference",
+      "name": "zero-reference",
+      "native_version": 21,
+      "variant": "reference",
+      "pair": "21-zero",
+      "shear": 0.0,
+      "baseline_mm": 80.0,
+      "document": {
+        "id": "shear21-zero-reference",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 50.0,
+            "y_mm": 74.0,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              -0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": null
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear21-positive",
+      "name": "positive-fitted",
+      "native_version": 21,
+      "variant": "fitted",
+      "pair": "21-positive",
+      "shear": 0.3249196962329004,
+      "baseline_mm": 80.0,
+      "document": {
+        "id": "shear21-positive",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.3249196962329004,
+              1.0,
+              -25.993575698632032,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": {
+                "path_id": "guide",
+                "start_offset_mm": 30.0,
+                "baseline_offset_mm": 0.0,
+                "anchor": "start"
+              }
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear21-positive-reference",
+      "name": "positive-reference",
+      "native_version": 21,
+      "variant": "reference",
+      "pair": "21-positive",
+      "shear": 0.3249196962329004,
+      "baseline_mm": 80.0,
+      "document": {
+        "id": "shear21-positive-reference",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 50.0,
+            "y_mm": 74.0,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.3249196962329004,
+              1.0,
+              -25.993575698632032,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": null
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear21-negative-offset",
+      "name": "negative-offset-fitted",
+      "native_version": 21,
+      "variant": "fitted",
+      "pair": "21-negative-offset",
+      "shear": -0.3249196962329004,
+      "baseline_mm": 81.25,
+      "document": {
+        "id": "shear21-negative-offset",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              -0.3249196962329004,
+              1.0,
+              26.399725318923156,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": {
+                "path_id": "guide",
+                "start_offset_mm": 30.0,
+                "baseline_offset_mm": 1.25,
+                "anchor": "start"
+              }
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    },
+    {
+      "id": "shear21-negative-offset-reference",
+      "name": "negative-offset-reference",
+      "native_version": 21,
+      "variant": "reference",
+      "pair": "21-negative-offset",
+      "shear": -0.3249196962329004,
+      "baseline_mm": 81.25,
+      "document": {
+        "id": "shear21-negative-offset-reference",
+        "unit": "mm",
+        "pages": [
+          {
+            "id": "page-1",
+            "width_mm": 210.0,
+            "height_mm": 297.0
+          }
+        ],
+        "objects": [
+          {
+            "id": "guide",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 0.0,
+            "y_mm": 0.0,
+            "width_mm": 160.0,
+            "height_mm": 0.1,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "none",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "path",
+              "d": "M20 80L180 80",
+              "fill_rule": "nonzero"
+            }
+          },
+          {
+            "id": "content",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 50.0,
+            "y_mm": 75.25,
+            "width_mm": 70.0,
+            "height_mm": 8.0,
+            "transform": [
+              1.0,
+              0.0,
+              -0.3249196962329004,
+              1.0,
+              26.399725318923156,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "text",
+              "content": "HAM 42",
+              "font_family": "Arial",
+              "font_size_mm": 6.0,
+              "layout": {
+                "mode": "point",
+                "align": "left",
+                "line_height_mm": null,
+                "letter_spacing_mm": 0.0
+              },
+              "text_path": null
+            }
+          },
+          {
+            "id": "edit-target",
+            "page_id": "page-1",
+            "parent_id": null,
+            "x_mm": 20.0,
+            "y_mm": 20.0,
+            "width_mm": 4.0,
+            "height_mm": 4.0,
+            "transform": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "style": {
+              "fill": "#000000",
+              "stroke": "none",
+              "stroke_width_mm": 0.1,
+              "opacity": 1.0
+            },
+            "visible": true,
+            "locked": false,
+            "clip": null,
+            "geometry": {
+              "kind": "rect",
+              "radius_mm": 0.0
+            }
+          }
+        ],
+        "resources": {}
+      }
+    }
+  ],
+  "full_cdr_save_complete": false
+}

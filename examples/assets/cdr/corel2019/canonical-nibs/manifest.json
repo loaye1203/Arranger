@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "file": "horizontal-v14.cdr",
+      "version": 14,
+      "profile": "horizontal",
+      "sha256": "86b4da49c79c1b7f8cfb8b2c4f7a700aa9ccf2d8ec5fa2393ba59ad45ca37263",
+      "source": "canonical-nib-corrected/canonical-nib-scaled-identity-nib50-v14.cdr"
+    },
+    {
+      "file": "vertical-v14.cdr",
+      "version": 14,
+      "profile": "vertical",
+      "sha256": "27bfbca1723dd8f03e2a6ad2556171b8e869f85749aea8dc769da98810bf31c7",
+      "source": "concentrated/canonical-nib-controls/canonical-nib-scaled-identity-nib50-v14.cdr"
+    },
+    {
+      "file": "circular-v14.cdr",
+      "version": 14,
+      "profile": "circular",
+      "sha256": "bb6f2b8e25aad33feecb291c77fa5873b554b6840b7e9702fd9495e36c3f4641",
+      "source": "concentrated/canonical-nib-controls/canonical-nib-scaled-identity-circular-v14.cdr"
+    },
+    {
+      "file": "horizontal-v21.cdr",
+      "version": 21,
+      "profile": "horizontal",
+      "sha256": "b6bf520ee1442bad395b0866b941f595a20b69ded2c5b0d8191d0fdcef7c0779",
+      "source": "canonical-nib-corrected/canonical-nib-scaled-identity-nib50-v21.cdr"
+    },
+    {
+      "file": "vertical-v21.cdr",
+      "version": 21,
+      "profile": "vertical",
+      "sha256": "8a6c6f5af1969b0b1d6c67cf5aef07c97140aa0331378dc611d768c19c68fbe6",
+      "source": "concentrated/canonical-nib-controls/canonical-nib-scaled-identity-nib50-v21.cdr"
+    },
+    {
+      "file": "circular-v21.cdr",
+      "version": 21,
+      "profile": "circular",
+      "sha256": "1b255fbb160d46302b4399f8c3bf960d86ea8b80deccf9e351b80fe7e73db132",
+      "source": "concentrated/canonical-nib-controls/canonical-nib-scaled-identity-circular-v21.cdr"
+    }
+  ],
+  "source_commit": "5e7c6cc0d3ca24a389dbc8adc07641d9ef8209c3",
+  "report": "reports/98-windows-rectangle-return-validation.md",
+  "scope": "Actual Corel2019 files. Vertical files are initial wrong-angle negative controls for the requested horizontal nib, not rewritten successes; their actual0degree/50percent state is separately observed. Circular/horizontal controls have final native validation."
+}

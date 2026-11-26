@@ -1,0 +1,2565 @@
+{
+  "passed": true,
+  "failure": null,
+  "initial_documents": 0,
+  "final_documents": 0,
+  "cases": [
+    {
+      "version": 14,
+      "page_mm": [
+        210,
+        297
+      ],
+      "dpi": 254,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0713,
+          297.0053,
+          210.0713,
+          0.0053
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0713,
+              294.0053,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0713,
+              294.0053,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0713,
+          297.0053,
+          210.0713,
+          0.0053
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0713,
+              294.0053,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0713,
+              294.0053,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-210x297-dpi254-v14.cdr",
+      "sha256": "22c9c1d7a1e4edefda02378761a31c37432a59730eabfd2a74435f6b28e81665"
+    },
+    {
+      "version": 14,
+      "page_mm": [
+        210,
+        297
+      ],
+      "dpi": 300,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          297.0,
+          210.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0713,
+          297.0053,
+          210.0713,
+          0.0053
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              29.9287,
+              3.005299999999977,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              2.9287,
+              3.005299999999977,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-210x297-dpi300-v14.cdr",
+      "sha256": "9ff0399f5796ec6cac2ebb005d715931eeead8bb39b5da467307c4e737cd1929"
+    },
+    {
+      "version": 14,
+      "page_mm": [
+        210,
+        297
+      ],
+      "dpi": 600,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0423,
+          297.0,
+          210.0423,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0423,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0423,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0713,
+          297.0053,
+          210.0713,
+          0.0053
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              29.971,
+              3.005299999999977,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0423,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              2.971,
+              3.005299999999977,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0423,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-210x297-dpi600-v14.cdr",
+      "sha256": "0bfc78656ca1998f14ceddb417156cb7cbe71f6687f02f8292fa7668820459d5"
+    },
+    {
+      "version": 14,
+      "page_mm": [
+        297,
+        210
+      ],
+      "dpi": 254,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0053,
+          210.0713,
+          297.0053,
+          0.0713
+        ],
+        "drawing_origin_mm": [
+          -148.5053,
+          -105.0713
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0053,
+              207.0713,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0053,
+              207.0713,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          210.0,
+          297.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -148.5,
+          -105.0
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-297x210-dpi254-v14.cdr",
+      "sha256": "16e8f7641e02280d83513015573d5eb0789d912536c4bcf1164143627561c481"
+    },
+    {
+      "version": 14,
+      "page_mm": [
+        297,
+        210
+      ],
+      "dpi": 300,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          210.0,
+          297.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -148.5053,
+          -105.0713
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          210.0,
+          297.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -148.5,
+          -105.0
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              29.9947,
+              3.071300000000008,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              29.9947,
+              206.9287,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              2.9947,
+              3.071300000000008,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              2.9947,
+              206.9287,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-297x210-dpi300-v14.cdr",
+      "sha256": "a2616578c683a4f9fc92206498775d0dc68b692533bb4561812e3c0a11fc9849"
+    },
+    {
+      "version": 14,
+      "page_mm": [
+        297,
+        210
+      ],
+      "dpi": 600,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          210.0423,
+          297.0,
+          0.0423
+        ],
+        "drawing_origin_mm": [
+          -148.5053,
+          -105.0713
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              207.0423,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              207.0423,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          210.0,
+          297.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -148.5,
+          -105.0
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              29.9947,
+              3.0289999999999964,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              29.9947,
+              206.971,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              2.9947,
+              3.0289999999999964,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              2.9947,
+              206.971,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-297x210-dpi600-v14.cdr",
+      "sha256": "89f307be60153e7abad2a6849d51a092428bc2c42820f60bb9edd8bc69e9d94f"
+    },
+    {
+      "version": 14,
+      "page_mm": [
+        60,
+        14
+      ],
+      "dpi": 254,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0567,
+          14.0273,
+          60.0567,
+          0.0273
+        ],
+        "drawing_origin_mm": [
+          -30.0567,
+          -7.0273
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0567,
+              11.0273,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0567,
+              11.0273,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          14.0,
+          60.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -30.0,
+          -7.0
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-60x14-dpi254-v14.cdr",
+      "sha256": "9034056914dbb238523b274dd89c6b3ef2d1a13cbbd09456c6fb6fc48d0b3101"
+    },
+    {
+      "version": 14,
+      "page_mm": [
+        60,
+        14
+      ],
+      "dpi": 300,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          14.0,
+          60.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -30.0567,
+          -7.0273
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          14.0,
+          60.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -30.0,
+          -7.0
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              29.9433,
+              3.0273000000000003,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              29.9433,
+              10.9727,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              2.9433,
+              3.0273000000000003,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              2.9433,
+              10.9727,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-60x14-dpi300-v14.cdr",
+      "sha256": "04284ee8f2377a2351e33104f304c7e5bca9c8b3022708eb46b5f282802be9bf"
+    },
+    {
+      "version": 14,
+      "page_mm": [
+        60,
+        14
+      ],
+      "dpi": 600,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0424,
+          14.0,
+          60.0424,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -30.0567,
+          -7.0273
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0424,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0424,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          14.0,
+          60.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -30.0,
+          -7.0
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              29.9857,
+              3.0273000000000003,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              29.9857,
+              10.9727,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              2.9857,
+              3.0273000000000003,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              2.9857,
+              10.9727,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-60x14-dpi600-v14.cdr",
+      "sha256": "b8b901471c076ba3673ed4d15d4dd52a78ed782e3f873a5493e4024e76a1fbfa"
+    },
+    {
+      "version": 21,
+      "page_mm": [
+        210,
+        297
+      ],
+      "dpi": 254,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0713,
+          297.0053,
+          210.0713,
+          0.0053
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0713,
+              294.0053,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0713,
+              294.0053,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0713,
+          297.0053,
+          210.0713,
+          0.0053
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0713,
+              294.0053,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0713,
+              294.0053,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-210x297-dpi254-v21.cdr",
+      "sha256": "95daae13d3ce6f8462191692bd1eda3e7456f4e16f8833c5411aceeb6b1d04b5"
+    },
+    {
+      "version": 21,
+      "page_mm": [
+        210,
+        297
+      ],
+      "dpi": 300,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          297.0,
+          210.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          297.0,
+          210.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-210x297-dpi300-v21.cdr",
+      "sha256": "9e5e5b16d4c1c78c6f2d62601cc5e40ac21549844fdb3a01e0fe81464cf54ee9"
+    },
+    {
+      "version": 21,
+      "page_mm": [
+        210,
+        297
+      ],
+      "dpi": 600,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0423,
+          297.0,
+          210.0423,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0423,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0423,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          210.0,
+          297.0
+        ],
+        "paper_edges_global_mm": [
+          0.0423,
+          297.0,
+          210.0423,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -105.0713,
+          -148.5053
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0423,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0423,
+              294.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-210x297-dpi600-v21.cdr",
+      "sha256": "8370485d961e99a774a8591b9f8cd124486a15eedcbe37c94e86457463ffd1ba"
+    },
+    {
+      "version": 21,
+      "page_mm": [
+        297,
+        210
+      ],
+      "dpi": 254,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0053,
+          210.0713,
+          297.0053,
+          0.0713
+        ],
+        "drawing_origin_mm": [
+          -148.5053,
+          -105.0713
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0053,
+              207.0713,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0053,
+              207.0713,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          210.0,
+          297.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -148.5,
+          -105.0
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-297x210-dpi254-v21.cdr",
+      "sha256": "ac769eb6a7fa5e11e4cebdd88fe5405f5e6cbf0d04b6b289afe7a89aeaf6151b"
+    },
+    {
+      "version": 21,
+      "page_mm": [
+        297,
+        210
+      ],
+      "dpi": 300,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          210.0,
+          297.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -148.5053,
+          -105.0713
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          210.0,
+          297.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -148.5053,
+          -105.0713
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-297x210-dpi300-v21.cdr",
+      "sha256": "39fb156aacadf07470d9919c4b49d1b24574f783026c10a2e92f6e326b608b5e"
+    },
+    {
+      "version": 21,
+      "page_mm": [
+        297,
+        210
+      ],
+      "dpi": 600,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          210.0423,
+          297.0,
+          0.0423
+        ],
+        "drawing_origin_mm": [
+          -148.5053,
+          -105.0713
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              207.0423,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              207.0423,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          297.0,
+          210.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          210.0,
+          297.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -148.5053,
+          -105.029
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              207.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-297x210-dpi600-v21.cdr",
+      "sha256": "cd7a9786ad73cc20ef2d815956da96383089ee7af65377c53f5966cee5f230f5"
+    },
+    {
+      "version": 21,
+      "page_mm": [
+        60,
+        14
+      ],
+      "dpi": 254,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0567,
+          14.0273,
+          60.0567,
+          0.0273
+        ],
+        "drawing_origin_mm": [
+          -30.0567,
+          -7.0273
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0567,
+              11.0273,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0567,
+              11.0273,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 254,
+        "page_dpi": 254,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          14.0,
+          60.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -30.0,
+          -7.0
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-60x14-dpi254-v21.cdr",
+      "sha256": "1304f5888902d12c627dae51139994745f8468dce168403a77ed89aad69901a0"
+    },
+    {
+      "version": 21,
+      "page_mm": [
+        60,
+        14
+      ],
+      "dpi": 300,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          14.0,
+          60.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -30.0567,
+          -7.0273
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 300,
+        "page_dpi": 300,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          14.0,
+          60.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -30.0567,
+          -7.0273
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-60x14-dpi300-v21.cdr",
+      "sha256": "6d9d86bd344271bde38330965d463874b51370086620eedbd2d0206dbee1ed88"
+    },
+    {
+      "version": 21,
+      "page_mm": [
+        60,
+        14
+      ],
+      "dpi": 600,
+      "passed": true,
+      "failure": null,
+      "before": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0424,
+          14.0,
+          60.0424,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -30.0567,
+          -7.0273
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0424,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0424,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "reopened": {
+        "document_unit": 3,
+        "document_dpi": 600,
+        "page_dpi": 600,
+        "page_mm": [
+          60.0,
+          14.0
+        ],
+        "paper_edges_global_mm": [
+          0.0,
+          14.0,
+          60.0,
+          0.0
+        ],
+        "drawing_origin_mm": [
+          -30.0143,
+          -7.0273
+        ],
+        "objects": [
+          {
+            "name": "rounded-control",
+            "type": 1,
+            "bounds_mm": [
+              30.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              30.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          {
+            "name": "coordinate-control",
+            "type": 1,
+            "bounds_mm": [
+              3.0,
+              3.0,
+              20.0,
+              8.0
+            ],
+            "global_bounds_mm": [
+              3.0,
+              11.0,
+              20.0,
+              8.0
+            ],
+            "corner_radii_mm": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "file": "page-60x14-dpi600-v21.cdr",
+      "sha256": "bb0df5ca188aa683a7731d807e447e6d2515aa06c389f3ab785999899f011590"
+    }
+  ],
+  "scope": "Genuine native DPI/page/rectangle controls. Observations establish the coordinate-field mapping; they do not apply a guessed offset or declare full saving compatible."
+}

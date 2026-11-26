@@ -1,0 +1,62 @@
+[
+  {
+    "file": "cmyk-v14-edited.cdr",
+    "active_pixels_sha256": "d206c6c4c12e944fa3193911734d8979ebf08b5222c33d8af83c5464c3983690",
+    "cmyk_pixels_exact": true,
+    "maximum_channel_difference": 0
+  },
+  {
+    "file": "cmyk-v14.cdr",
+    "active_pixels_sha256": "d206c6c4c12e944fa3193911734d8979ebf08b5222c33d8af83c5464c3983690",
+    "cmyk_pixels_exact": true,
+    "maximum_channel_difference": 0
+  },
+  {
+    "file": "cmyk-v21-edited.cdr",
+    "active_pixels_sha256": "d206c6c4c12e944fa3193911734d8979ebf08b5222c33d8af83c5464c3983690",
+    "cmyk_pixels_exact": true,
+    "maximum_channel_difference": 0
+  },
+  {
+    "file": "cmyk-v21.cdr",
+    "active_pixels_sha256": "d206c6c4c12e944fa3193911734d8979ebf08b5222c33d8af83c5464c3983690",
+    "cmyk_pixels_exact": true,
+    "maximum_channel_difference": 0
+  },
+  {
+    "file": "gray16-v14-edited.cdr",
+    "active_pixels_sha256": "c2ac953893f81388e1eede65f35593ce533f69f5ce93e4654fff420a48ba9c36",
+    "source_bits_per_component": 16,
+    "native_bits_per_component": 8,
+    "source_values_divisible_by257": 13,
+    "pixel_count": 117,
+    "native_matches_source_high_byte": true
+  },
+  {
+    "file": "gray16-v14.cdr",
+    "active_pixels_sha256": "c2ac953893f81388e1eede65f35593ce533f69f5ce93e4654fff420a48ba9c36",
+    "source_bits_per_component": 16,
+    "native_bits_per_component": 8,
+    "source_values_divisible_by257": 13,
+    "pixel_count": 117,
+    "native_matches_source_high_byte": true
+  },
+  {
+    "file": "gray16-v21-edited.cdr",
+    "active_pixels_sha256": "c2ac953893f81388e1eede65f35593ce533f69f5ce93e4654fff420a48ba9c36",
+    "source_bits_per_component": 16,
+    "native_bits_per_component": 8,
+    "source_values_divisible_by257": 13,
+    "pixel_count": 117,
+    "native_matches_source_high_byte": true
+  },
+  {
+    "file": "gray16-v21.cdr",
+    "active_pixels_sha256": "c2ac953893f81388e1eede65f35593ce533f69f5ce93e4654fff420a48ba9c36",
+    "source_bits_per_component": 16,
+    "native_bits_per_component": 8,
+    "source_values_divisible_by257": 13,
+    "pixel_count": 117,
+    "native_matches_source_high_byte": true
+  }
+]

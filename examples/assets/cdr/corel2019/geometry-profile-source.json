@@ -1,0 +1,22 @@
+{
+  "scope": "Corel-created three-shape CDR14 profile for independent experimental codec development, not an Arranger runtime dependency or full-fidelity format.",
+  "corel_major": 21,
+  "version": 14,
+  "bytes": 10049,
+  "sha256": "7ddc9f499372107c718a0fbb5ae98aa4448c04cbbcc65d21f35f55cef5be5a6f",
+  "page_mm": [
+    210,
+    297
+  ],
+  "drawing_origin_mm": [
+    -105.0,
+    -148.5
+  ],
+  "names": [
+    "profile-rectangle",
+    "profile-ellipse",
+    "profile-curve"
+  ],
+  "curve_nodes": 2,
+  "source": "scripts/create-corel-geometry-profile.ps1; only newly created project geometry"
+}

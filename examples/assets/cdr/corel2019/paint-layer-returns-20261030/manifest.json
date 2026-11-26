@@ -1,0 +1,44 @@
+[
+  {
+    "name": "layers14-path",
+    "file": "examples/assets/cdr/corel2019/paint-layer-returns-20261030/layers14-path-corel-resaved.cdr",
+    "sha256": "5ab26cdbb3fbeea68cdc9eabe79df05330bc01e84c4e3203bfd756bd145db4ec",
+    "original": "examples/assets/cdr/paint-layers-20261030/layers14-path.cdr"
+  },
+  {
+    "name": "layers21-path",
+    "file": "examples/assets/cdr/corel2019/paint-layer-returns-20261030/layers21-path-corel-resaved.cdr",
+    "sha256": "57eab1ab56096bd6f21107c9a15e37e9090e64c231746cf869b48e70fd29a92b",
+    "original": "examples/assets/cdr/paint-layers-20261030/layers21-path.cdr"
+  },
+  {
+    "name": "layers14-point-text",
+    "file": "examples/assets/cdr/corel2019/paint-layer-returns-20261030/layers14-point-text-corel-resaved.cdr",
+    "sha256": "09d121f3b2c26e9f6aa42fed455fc8ad8aef8357b932b777d472562448cda2e3",
+    "original": "examples/assets/cdr/paint-layers-20261030/layers14-point-text.cdr"
+  },
+  {
+    "name": "layers21-point-text",
+    "file": "examples/assets/cdr/corel2019/paint-layer-returns-20261030/layers21-point-text-corel-resaved.cdr",
+    "sha256": "fd872facbd47c4196ec9a59063d3e978ba072e0c6a5b09016b16d83aeb611792",
+    "original": "examples/assets/cdr/paint-layers-20261030/layers21-point-text.cdr"
+  },
+  {
+    "name": "layers14-area-text",
+    "file": "examples/assets/cdr/corel2019/paint-layer-returns-20261030/layers14-area-text-corel-resaved.cdr",
+    "sha256": "3242e7ee190aa28506ae9b398546c45ee7d67c1da5b39dee690d80b6e7c5c1dd",
+    "original": "examples/assets/cdr/paint-layers-20261030/layers14-area-text.cdr"
+  },
+  {
+    "name": "layers21-area-text",
+    "file": "examples/assets/cdr/corel2019/paint-layer-returns-20261030/layers21-area-text-corel-resaved.cdr",
+    "sha256": "5841e0af500581f3469393cd2cd6b8e882768ea6656358dd599e538c7f974865",
+    "original": "examples/assets/cdr/paint-layers-20261030/layers21-area-text.cdr"
+  },
+  {
+    "name": "isolated21-point-text",
+    "file": "examples/assets/cdr/corel2019/paint-layer-returns-20261030/isolated21-point-text-corel-resaved.cdr",
+    "sha256": "1c070ac311ec8f60c3b75914e728dd23a38466afa4a72b07c795ea4039aa0ba0",
+    "original": "examples/assets/cdr/paint-layers-20261030/isolated21-point-text.cdr"
+  }
+]

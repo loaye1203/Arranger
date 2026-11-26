@@ -1,0 +1,149 @@
+{
+  "format": "arranger",
+  "format_version": 1,
+  "saved_revision": 1,
+  "document_sha256": "8055302725922f95f4fe7a1a327e79cb51fcd709f93cecf938ae41e32260321f",
+  "document": {
+    "id": "cyclicfit21-curve-parent-turn90",
+    "unit": "mm",
+    "pages": [
+      {
+        "id": "page-1",
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      }
+    ],
+    "objects": [
+      {
+        "id": "edit-target",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 170.0,
+        "y_mm": 10.0,
+        "width_mm": 15.0,
+        "height_mm": 12.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#123456",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 0.0
+        }
+      },
+      {
+        "id": "parent",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 3.0,
+        "y_mm": 4.0,
+        "width_mm": 0.0,
+        "height_mm": 0.0,
+        "transform": [
+          0.0,
+          2.0,
+          -2.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "group"
+        }
+      },
+      {
+        "id": "guide",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 35.0,
+        "y_mm": 55.0,
+        "width_mm": 120.0,
+        "height_mm": 120.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "none",
+          "stroke": "#888888",
+          "stroke_width_mm": 0.2,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "path",
+          "d": "M60 20C82 20 100 38 100 60C100 82 82 100 60 100C38 100 20 82 20 60C20 38 38 20 60 20Z"
+        }
+      },
+      {
+        "id": "content",
+        "page_id": "page-1",
+        "parent_id": "parent",
+        "x_mm": 0.25,
+        "y_mm": -0.5,
+        "width_mm": 60.0,
+        "height_mm": 12.0,
+        "transform": [
+          0.0,
+          1.0,
+          -1.0,
+          0.0,
+          2.5,
+          -106.25
+        ],
+        "style": {
+          "fill": "#123456",
+          "stroke": "#123456",
+          "stroke_width_mm": 0.1234567,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "text",
+          "content": "Live 42",
+          "font_family": "Arial",
+          "font_size_mm": 4.0,
+          "text_path": {
+            "path_id": "guide",
+            "start_offset_mm": 15.0,
+            "baseline_offset_mm": 0.125,
+            "anchor": "start"
+          },
+          "layout": {
+            "mode": "point",
+            "align": "left",
+            "letter_spacing_mm": 0.125,
+            "line_height_mm": 5.25
+          }
+        }
+      }
+    ],
+    "resources": {}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Corel-created editable Chinese/PNG alpha/JPG profile for independent CDR14 content experiment",
+  "generator": "scripts/collect-corel-content-references.ps1",
+  "source": "reports/windows/WIN-CDR-CONTENT-20261022-01/references/result.json",
+  "sha256": "194c5d4456f860fce03a4699d7837a94e1363e67d0677f5896339a903cbb250e",
+  "bytes": 10572,
+  "corel_build": "21.0.0.593",
+  "version": 14,
+  "font": "Microsoft YaHei / 微软雅黑",
+  "fonts_embedded": false
+}

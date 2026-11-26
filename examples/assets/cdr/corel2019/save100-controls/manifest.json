@@ -1,0 +1,67 @@
+{
+  "commit": "d9ce92b6458efba6a8784301a8a67fbb30d257ad",
+  "archive": "reports/windows/WIN-SAVE-NEXT-20261029-01/raw/windows-save-next-20261029-01-part01.zip",
+  "cases": [
+    {
+      "file": "native-circular-corners.cdr",
+      "bytes": 9640,
+      "sha256": "75c60d101b2957827e7efdf4953a33d8b268d6d25ba0add9b7c02399c3bea316",
+      "source": "artifacts/windows-save-next-20261029-01/native-edit-controls/native-circular-radius-properties-mm.cdr"
+    },
+    {
+      "file": "native-elliptical-corners.cdr",
+      "bytes": 10016,
+      "sha256": "c4831fd7a7bc799dca1ac8824a358dbfd9bc8262700f13521a88f3b13208a08d",
+      "source": "artifacts/windows-save-next-20261029-01/native-edit-controls/native-ellipse-radius-properties-mm.cdr"
+    },
+    {
+      "file": "native-x-resized21.cdr",
+      "bytes": 11214,
+      "sha256": "da76e09592b6e07daa373830176c5a933aa7db6e65a21bca32e35c8351d6679d",
+      "source": "artifacts/windows-save-next-20261029-01/native-edit-controls/native-x-major-v21-resize-edited.cdr"
+    },
+    {
+      "file": "native-y-resized21.cdr",
+      "bytes": 11088,
+      "sha256": "ec950509680ecc6f7282a4d60b67e3e129eb6c76117d0cc4b4b16fde72d00996",
+      "source": "artifacts/windows-save-next-20261029-01/native-edit-controls/native-y-major-v21-resize-edited.cdr"
+    },
+    {
+      "file": "product-x-resized21.cdr",
+      "bytes": 11712,
+      "sha256": "c600f5e00da316562e303115228791145121bdb6d56f8302ecc93a94960e3495",
+      "source": "artifacts/windows-save-next-20261029-01/concentrated-final/primitive-edits/x-major-direct-v21-width-height.cdr"
+    },
+    {
+      "file": "product-y-resized21.cdr",
+      "bytes": 11726,
+      "sha256": "51fd47f470147d4c280836da82284727c0180744db4172d0f6d095d83a740650",
+      "source": "artifacts/windows-save-next-20261029-01/concentrated-final/primitive-edits/y-major-direct-v21-width-height.cdr"
+    },
+    {
+      "file": "combined-opacity14.cdr",
+      "bytes": 8098,
+      "sha256": "23c0b8b35c03f828a2b8cdb00b369739b284b5d7e6fc6350fcf7a662457df5f1",
+      "source": "artifacts/windows-save-next-20261029-01/concentrated-final/remaining-controls/sdk-both-v14-resaved.cdr"
+    },
+    {
+      "file": "tiny-ellipse14.cdr",
+      "bytes": 10978,
+      "sha256": "2a29473c698cd3a4ed885ca7b5b679639980893a575d50d5e095b35b1920dd79",
+      "source": "artifacts/windows-save-next-20261029-01/concentrated-final/candidates-native/boundary14-ellipse-subgrid-corel-resaved.cdr"
+    },
+    {
+      "file": "combined-opacity21.cdr",
+      "bytes": 11344,
+      "sha256": "7b8936955174d81b19b74f797914efa2116b767ea79a14a05bb9b5cbb3a4e1f4",
+      "source": "artifacts/windows-save-next-20261029-01/concentrated-final/remaining-controls/sdk-both-v21-resaved.cdr"
+    },
+    {
+      "file": "tiny-ellipse21.cdr",
+      "bytes": 14420,
+      "sha256": "3e2477a47a6ec35d426646f10e638da9f4835914ced9d9d84790dbd565efcd09",
+      "source": "artifacts/windows-save-next-20261029-01/concentrated-final/candidates-native/boundary21-ellipse-subgrid-corel-resaved.cdr"
+    }
+  ],
+  "scope": "Exact existing Windows100 native originals; original failures retained. No new Corel run."
+}

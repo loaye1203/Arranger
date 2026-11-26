@@ -1,0 +1,26 @@
+{
+  "scope": "Exact actual Corel2019 report88 resaved originals, not new native execution.",
+  "files": [
+    {
+      "file": "empty-text-v21-corel-resaved.cdr",
+      "original": "reports/windows/WIN-SAVE-CONCENTRATED-20261028-01/raw/native/windows-save-concentrated-20261028-01-part01.zip",
+      "member": "artifacts/windows-save-concentrated-20261028-01/final/matrix-native/empty-text-v21-corel-resaved.cdr",
+      "sha256": "a8ebe525300fd8c06ddbdd7ca4eb85b1771628e3a29e0d75b1b4e59fed1fc32f",
+      "bytes": 16584
+    },
+    {
+      "file": "outlined-text-v21-corel-resaved.cdr",
+      "original": "reports/windows/WIN-SAVE-CONCENTRATED-20261028-01/raw/native/windows-save-concentrated-20261028-01-part01.zip",
+      "member": "artifacts/windows-save-concentrated-20261028-01/final/matrix-native/outlined-text-v21-corel-resaved.cdr",
+      "sha256": "411963a6a70c114a2e098980135ebb47b7735bf0393905ccf9675400a290519c",
+      "bytes": 18768
+    },
+    {
+      "file": "similarity21-clip-outline-corel-resaved.cdr",
+      "original": "reports/windows/WIN-SAVE-CONCENTRATED-20261028-01/raw/native/windows-save-concentrated-20261028-01-part01.zip",
+      "member": "artifacts/windows-save-concentrated-20261028-01/effective/similarity-native/similarity21-clip-outline-corel-resaved.cdr",
+      "sha256": "db0c310001c6ce1cb8abfab2b3a8c0afc12254909d8e13f32467090b0ad88af3",
+      "bytes": 20916
+    }
+  ]
+}

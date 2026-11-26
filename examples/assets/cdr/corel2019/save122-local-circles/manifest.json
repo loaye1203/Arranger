@@ -1,0 +1,881 @@
+{
+  "origin_commit": "c0896f07727b193f600a0453434873e354084266",
+  "cases": [
+    {
+      "file": "scaled-rect-stretch-v21.cdr",
+      "sha256": "aa190ae9d8825997ee384757d8dd3aae8541e41ea4f24c1d673fdf7149046cf8",
+      "sdk": {
+        "live": {
+          "name": "content",
+          "static_id": "4",
+          "type": 1,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            60.0,
+            97.00000000000001,
+            40.0,
+            10.0
+          ],
+          "outline_width_mm": 1.0,
+          "nib_stretch_percent": 50,
+          "nib_angle_degrees": -90.0,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            2.0,
+            0.0,
+            0.0,
+            1.0,
+            -450713.0,
+            414947.0
+          ],
+          "radius_samples_mm": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "max_radius_samples_mm": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "virtual": false,
+          "corner_type": 0,
+          "relative_corner_scaling": false
+        },
+        "curve": {
+          "name": "curve-reference",
+          "static_id": "5",
+          "type": 3,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            60.0,
+            97.00000000000001,
+            40.0,
+            10.0
+          ],
+          "outline_width_mm": 1.0,
+          "nib_stretch_percent": 50,
+          "nib_angle_degrees": -90.0,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            2.0,
+            0.0,
+            0.0,
+            1.0,
+            -450713.0,
+            414947.0
+          ],
+          "virtual": false
+        }
+      },
+      "scope": "actual Corel-created21; research collection is not Arranger writer acceptance",
+      "independent_binary_primitive": {
+        "native_kind": 1,
+        "size_mm": [
+          20.0,
+          10.0
+        ],
+        "page_matrix": [
+          2.0,
+          -0.0,
+          -0.0,
+          1.0,
+          59.99999999999999,
+          97.0
+        ]
+      }
+    },
+    {
+      "file": "scaled-rect-rotate-stretch-v21.cdr",
+      "sha256": "bb48935ceece769116a43fe8763ce29ac2d992165e50a50187d4f3f2792a9570",
+      "sdk": {
+        "live": {
+          "name": "content",
+          "static_id": "4",
+          "type": 1,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            60.1795,
+            87.66990000000001,
+            39.641,
+            28.6602
+          ],
+          "outline_width_mm": 1.0,
+          "nib_stretch_percent": 50,
+          "nib_angle_degrees": -60.0,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            1.732050807568886,
+            -0.49999999999999234,
+            0.9999999999999847,
+            0.866025403784443,
+            -398918.08075688896,
+            321645.72981077945
+          ],
+          "radius_samples_mm": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "max_radius_samples_mm": [
+            14.3301,
+            14.3301,
+            14.3301
+          ],
+          "virtual": false,
+          "corner_type": 0,
+          "relative_corner_scaling": false
+        },
+        "curve": {
+          "name": "curve-reference",
+          "static_id": "5",
+          "type": 3,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            60.1795,
+            87.66990000000001,
+            39.641,
+            28.6602
+          ],
+          "outline_width_mm": 1.0,
+          "nib_stretch_percent": 50,
+          "nib_angle_degrees": -60.0,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            1.732050807568886,
+            -0.49999999999999234,
+            0.9999999999999847,
+            0.866025403784443,
+            -398918.08075688896,
+            321645.72981077945
+          ],
+          "virtual": false
+        }
+      },
+      "scope": "actual Corel-created21; research collection is not Arranger writer acceptance",
+      "independent_binary_primitive": {
+        "native_kind": 1,
+        "size_mm": [
+          20.0,
+          10.0
+        ],
+        "page_matrix": [
+          1.732050807568886,
+          -0.9999999999999847,
+          0.49999999999999234,
+          0.866025403784443,
+          60.17949192431118,
+          107.66987298107762
+        ]
+      }
+    },
+    {
+      "file": "scaled-rect-shear-v21.cdr",
+      "sha256": "51ec0e161c5f3ae3cf247bbeb5d5c9cb4593ffb8530d583eeab2dc5b1668aa6c",
+      "sdk": {
+        "live": {
+          "name": "content",
+          "static_id": "4",
+          "type": 1,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            60.0,
+            97.00000000000001,
+            23.2492,
+            10.0
+          ],
+          "outline_width_mm": 0.5878,
+          "nib_stretch_percent": 72,
+          "nib_angle_degrees": 49.613822,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            1.0,
+            -0.3249196962329004,
+            0.0,
+            1.0,
+            -418221.0303767099,
+            414947.0
+          ],
+          "radius_samples_mm": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "max_radius_samples_mm": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "virtual": false,
+          "corner_type": 0,
+          "relative_corner_scaling": false
+        },
+        "curve": {
+          "name": "curve-reference",
+          "static_id": "5",
+          "type": 3,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            60.0,
+            97.00000000000001,
+            23.2492,
+            10.0
+          ],
+          "outline_width_mm": 0.5878,
+          "nib_stretch_percent": 72,
+          "nib_angle_degrees": 49.613822,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            1.0,
+            -0.3249196962329004,
+            0.0,
+            1.0,
+            -418221.0303767099,
+            414947.0
+          ],
+          "virtual": false
+        }
+      },
+      "scope": "actual Corel-created21; research collection is not Arranger writer acceptance",
+      "independent_binary_primitive": {
+        "native_kind": 1,
+        "size_mm": [
+          20.0,
+          10.0
+        ],
+        "page_matrix": [
+          1.0,
+          -0.0,
+          0.3249196962329004,
+          1.0,
+          60.00000000000001,
+          97.0
+        ]
+      }
+    },
+    {
+      "file": "scaled-rect-reflected-shear-v21.cdr",
+      "sha256": "ca76b4e629a2d16cbfccb91dbd9a5685d3873e167b5b03e2595233472ad0b27d",
+      "sdk": {
+        "live": {
+          "name": "content",
+          "static_id": "4",
+          "type": 1,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            36.7508,
+            97.00000000000001,
+            23.2492,
+            10.0
+          ],
+          "outline_width_mm": 0.5878,
+          "nib_stretch_percent": 72,
+          "nib_angle_degrees": -49.613822,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            -1.0,
+            0.3249196962329004,
+            0.0,
+            1.0,
+            -483204.9696232901,
+            414947.0
+          ],
+          "radius_samples_mm": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "max_radius_samples_mm": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "virtual": false,
+          "corner_type": 0,
+          "relative_corner_scaling": false
+        },
+        "curve": {
+          "name": "curve-reference",
+          "static_id": "5",
+          "type": 3,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            36.7508,
+            97.00000000000001,
+            23.2492,
+            10.0
+          ],
+          "outline_width_mm": 0.5878,
+          "nib_stretch_percent": 72,
+          "nib_angle_degrees": -49.613822,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            -1.0,
+            0.3249196962329004,
+            0.0,
+            1.0,
+            -483204.9696232901,
+            414947.0
+          ],
+          "virtual": false
+        }
+      },
+      "scope": "actual Corel-created21; research collection is not Arranger writer acceptance",
+      "independent_binary_primitive": {
+        "native_kind": 1,
+        "size_mm": [
+          20.0,
+          10.0
+        ],
+        "page_matrix": [
+          -1.0,
+          -0.0,
+          -0.3249196962329004,
+          1.0,
+          59.999999999999986,
+          97.0
+        ]
+      }
+    },
+    {
+      "file": "scaled-ellipse-stretch-v21.cdr",
+      "sha256": "893e76254190236149caa11cab548a2c9ebfb22262d4523254623c369631cf2d",
+      "sdk": {
+        "live": {
+          "name": "content",
+          "static_id": "4",
+          "type": 2,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            60.0,
+            97.00000000000001,
+            40.0,
+            10.0
+          ],
+          "outline_width_mm": 1.0,
+          "nib_stretch_percent": 50,
+          "nib_angle_degrees": -90.0,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            2.0,
+            0.0,
+            0.0,
+            1.0,
+            -450713.0,
+            414947.0
+          ],
+          "virtual": false
+        },
+        "curve": {
+          "name": "curve-reference",
+          "static_id": "5",
+          "type": 3,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            60.0,
+            97.00000000000001,
+            40.0,
+            10.0
+          ],
+          "outline_width_mm": 1.0,
+          "nib_stretch_percent": 50,
+          "nib_angle_degrees": -90.0,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            2.0,
+            0.0,
+            0.0,
+            1.0,
+            -250713.0,
+            414947.0
+          ],
+          "virtual": false
+        }
+      },
+      "scope": "actual Corel-created21; research collection is not Arranger writer acceptance",
+      "independent_binary_primitive": {
+        "native_kind": 2,
+        "size_mm": [
+          20.0,
+          10.0
+        ],
+        "page_matrix": [
+          2.0,
+          -0.0,
+          -0.0,
+          1.0,
+          59.99999999999999,
+          97.0
+        ]
+      }
+    },
+    {
+      "file": "scaled-ellipse-rotate-stretch-v21.cdr",
+      "sha256": "1868184b4d037973d383716abbdc6478c04df3232c66faeb179c160d2287a426",
+      "sdk": {
+        "live": {
+          "name": "content",
+          "static_id": "4",
+          "type": 2,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            62.4977,
+            91.10000000000005,
+            35.0046,
+            21.8
+          ],
+          "outline_width_mm": 1.0,
+          "nib_stretch_percent": 50,
+          "nib_angle_degrees": -60.0,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            1.732050807568886,
+            -0.49999999999999234,
+            0.9999999999999847,
+            0.866025403784443,
+            -398918.08075688896,
+            321645.72981077945
+          ],
+          "virtual": false
+        },
+        "curve": {
+          "name": "curve-reference",
+          "static_id": "5",
+          "type": 3,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            62.4977,
+            91.10000000000005,
+            35.0046,
+            21.8
+          ],
+          "outline_width_mm": 1.0,
+          "nib_stretch_percent": 50,
+          "nib_angle_degrees": -60.0,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            1.732050807568886,
+            -0.49999999999999234,
+            0.9999999999999847,
+            0.866025403784443,
+            -225713.00000000035,
+            421645.7298107779
+          ],
+          "virtual": false
+        }
+      },
+      "scope": "actual Corel-created21; research collection is not Arranger writer acceptance",
+      "independent_binary_primitive": {
+        "native_kind": 2,
+        "size_mm": [
+          20.0,
+          10.0
+        ],
+        "page_matrix": [
+          1.732050807568886,
+          -0.9999999999999847,
+          0.49999999999999234,
+          0.866025403784443,
+          60.17949192431118,
+          107.66987298107762
+        ]
+      }
+    },
+    {
+      "file": "scaled-ellipse-shear-v21.cdr",
+      "sha256": "508e8c395db2cef2f694908141f7f327ad6f60c3f9ff991df7b56ff46d8b0cb7",
+      "sdk": {
+        "live": {
+          "name": "content",
+          "static_id": "4",
+          "type": 2,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            61.4919,
+            97.00000000000001,
+            20.2654,
+            10.0
+          ],
+          "outline_width_mm": 0.5878,
+          "nib_stretch_percent": 72,
+          "nib_angle_degrees": 49.613822,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            1.0,
+            -0.3249196962329004,
+            0.0,
+            1.0,
+            -418221.0303767099,
+            414947.0
+          ],
+          "virtual": false
+        },
+        "curve": {
+          "name": "curve-reference",
+          "static_id": "5",
+          "type": 3,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            61.4919,
+            97.00000000000001,
+            20.2654,
+            10.0
+          ],
+          "outline_width_mm": 0.5878,
+          "nib_stretch_percent": 72,
+          "nib_angle_degrees": 49.613822,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            1.0,
+            -0.3249196962329004,
+            0.0,
+            1.0,
+            -318221.03037670994,
+            414947.0
+          ],
+          "virtual": false
+        }
+      },
+      "scope": "actual Corel-created21; research collection is not Arranger writer acceptance",
+      "independent_binary_primitive": {
+        "native_kind": 2,
+        "size_mm": [
+          20.0,
+          10.0
+        ],
+        "page_matrix": [
+          1.0,
+          -0.0,
+          0.3249196962329004,
+          1.0,
+          60.00000000000001,
+          97.0
+        ]
+      }
+    },
+    {
+      "file": "scaled-ellipse-reflected-shear-v21.cdr",
+      "sha256": "9d9fa97c287f8157cc428d85e0bdac42acd8041d54d0f70916fd526eae140b92",
+      "sdk": {
+        "live": {
+          "name": "content",
+          "static_id": "4",
+          "type": 2,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            41.2265,
+            97.00000000000001,
+            20.2654,
+            10.0
+          ],
+          "outline_width_mm": 0.5878,
+          "nib_stretch_percent": 72,
+          "nib_angle_degrees": -49.613822,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            -1.0,
+            0.3249196962329004,
+            0.0,
+            1.0,
+            -453366.9696232901,
+            414947.0
+          ],
+          "virtual": false
+        },
+        "curve": {
+          "name": "curve-reference",
+          "static_id": "5",
+          "type": 3,
+          "document_unit": 1,
+          "source_file_version": 21,
+          "source_format": 1795,
+          "page_mm": [
+            210.0,
+            297.0
+          ],
+          "paper_edges_mm": [
+            0.0,
+            297.0,
+            210.0,
+            0.0
+          ],
+          "bounds_mm": [
+            41.2265,
+            97.00000000000001,
+            20.2654,
+            10.0
+          ],
+          "outline_width_mm": 0.5878,
+          "nib_stretch_percent": 72,
+          "nib_angle_degrees": -49.613822,
+          "scale_with_shape": true,
+          "matrix_sdk_raw": [
+            -1.0,
+            0.3249196962329004,
+            0.0,
+            1.0,
+            -553366.96962329,
+            414947.0
+          ],
+          "virtual": false
+        }
+      },
+      "scope": "actual Corel-created21; research collection is not Arranger writer acceptance",
+      "independent_binary_primitive": {
+        "native_kind": 2,
+        "size_mm": [
+          20.0,
+          10.0
+        ],
+        "page_matrix": [
+          -1.0,
+          -0.0,
+          -0.3249196962329004,
+          1.0,
+          62.98379999999998,
+          97.0
+        ]
+      }
+    }
+  ]
+}

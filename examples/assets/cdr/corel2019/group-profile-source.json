@@ -1,0 +1,6 @@
+{
+  "source": "reports/windows/WIN-CDR-SAVE-20261022-01/focused/native-preservation/group-affine-v14.cdr",
+  "sha256": "0cfbec9335a584e60bcefc6c3083e9e0962ab21e8a049b4793691de9b55f50d5",
+  "scope": "Actual Corel2019 v14 group envelope; original child opacity and CMYK remain unsupported; canonical writer removes all reference members",
+  "report": "reports/48-windows-cdr-save-validation.md"
+}

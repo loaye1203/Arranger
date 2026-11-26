@@ -1,0 +1,304 @@
+{
+  "format": "arranger",
+  "format_version": 1,
+  "saved_revision": 6,
+  "document_sha256": "00b1c8cbb07a3cb2b8e6e793eb3fd4da3178c16bbcbb06fed309053c84a4c2b0",
+  "document": {
+    "id": "main",
+    "unit": "mm",
+    "pages": [
+      {
+        "id": "page-1",
+        "width_mm": 300.0,
+        "height_mm": 200.0
+      },
+      {
+        "id": "page-2",
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      }
+    ],
+    "objects": [
+      {
+        "id": "rect-main",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 50.0,
+        "y_mm": 20.0,
+        "width_mm": 100.0,
+        "height_mm": 50.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 2.0
+        }
+      },
+      {
+        "id": "ellipse-main",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 140.0,
+        "y_mm": 15.0,
+        "width_mm": 70.0,
+        "height_mm": 45.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "ellipse"
+        }
+      },
+      {
+        "id": "curve-main",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 20.0,
+        "y_mm": 85.0,
+        "width_mm": 100.0,
+        "height_mm": 60.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "path",
+          "d": "M0 50 C0 0 100 0 100 50 L80 60 Z"
+        }
+      },
+      {
+        "id": "text-main",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 10.0,
+        "y_mm": 165.0,
+        "width_mm": 250.0,
+        "height_mm": 15.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "text",
+          "content": "重开后继续编辑 · Arranger",
+          "font_family": "Microsoft YaHei",
+          "font_size_mm": 10.0
+        }
+      },
+      {
+        "id": "group-main",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 160.0,
+        "y_mm": 90.0,
+        "width_mm": 0.0,
+        "height_mm": 0.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "group"
+        }
+      },
+      {
+        "id": "child",
+        "page_id": "page-1",
+        "parent_id": "group-main",
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "width_mm": 20.0,
+        "height_mm": 20.0,
+        "transform": [
+          1.0,
+          0.1,
+          0.2,
+          1.0,
+          0.123456789012345,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 2.0
+        }
+      },
+      {
+        "id": "image-main",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 210.0,
+        "y_mm": 100.0,
+        "width_mm": 25.0,
+        "height_mm": 25.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "image",
+          "resource_id": "shared-png",
+          "clip_mm": [
+            0.0,
+            0.0,
+            20.0,
+            25.0
+          ]
+        }
+      },
+      {
+        "id": "image-copy",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 250.0,
+        "y_mm": 100.0,
+        "width_mm": 25.0,
+        "height_mm": 25.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "image",
+          "resource_id": "shared-png",
+          "clip_mm": [
+            0.0,
+            0.0,
+            20.0,
+            25.0
+          ]
+        }
+      },
+      {
+        "id": "offpage",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 330.0,
+        "y_mm": -10.0,
+        "width_mm": 20.0,
+        "height_mm": 20.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 2.0
+        }
+      }
+    ],
+    "resources": {
+      "shared-png": {
+        "mime": "image/png",
+        "sha256": "96869643547820a307506b5af3888117feb3ba905f7ea198d00c0da6d5d6e831",
+        "data_base64": "iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAG0lEQVR4nGP4ZSP3/8MJuf8MIgvy/osE3PkPAFV2CYlzd1BcAAAAAElFTkSuQmCC"
+      }
+    }
+  }
+}

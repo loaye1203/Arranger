@@ -1,0 +1,24 @@
+{
+  "origin": "CorelDRAW2019 COM import of a standard unsigned16 RGB TIFF; original/edited outputs remain in round23 evidence",
+  "source_samples_le_sha256": "851c64fc48dd60bb149bfe3c9696d7045f30023504d8bb7a0d0dc1bca9afffc8",
+  "width_px": 13,
+  "height_px": 9,
+  "sample_count": 351,
+  "files": [
+    {
+      "file": "rgb16.png",
+      "bytes": 779,
+      "sha256": "01a8f2834ed84b78af918eae31e6180cee36f3121b97c04f7865cc55a3128773"
+    },
+    {
+      "file": "tiff-import-v14.cdr",
+      "bytes": 22042,
+      "sha256": "743d3ec62d57ee49e08a6d77c9e9e9f01019185d258f32d910ffe68906c471ef"
+    },
+    {
+      "file": "tiff-import-v21.cdr",
+      "bytes": 24122,
+      "sha256": "120c927bbcf6f031df0f8280c6919173d8831b946256d28c8e950b12c13e4a19"
+    }
+  ]
+}

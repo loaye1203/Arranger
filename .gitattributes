@@ -1,0 +1,11 @@
+# Keep scripts and source text usable after cloning on Windows and macOS.
+* text=auto eol=lf
+*.sh text eol=lf
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.pdf -text
+*.zip -text
+*.exe -text
+*.arranger -text
+*.cdr -text

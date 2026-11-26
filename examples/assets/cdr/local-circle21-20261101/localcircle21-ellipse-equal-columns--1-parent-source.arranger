@@ -1,0 +1,106 @@
+{
+  "format": "arranger",
+  "format_version": 1,
+  "saved_revision": 1,
+  "document_sha256": "aad5acd35101899197ddeaaa619bd4063c9c0ea84e3b6fecd00442397c4cc873",
+  "document": {
+    "id": "localcircle21-ellipse-equal-columns--1-parent",
+    "unit": "mm",
+    "pages": [
+      {
+        "id": "page-1",
+        "width_mm": 210.0,
+        "height_mm": 297.0
+      }
+    ],
+    "objects": [
+      {
+        "id": "edit-target",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 160.0,
+        "y_mm": 20.0,
+        "width_mm": 25.0,
+        "height_mm": 12.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#123456",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "rect",
+          "radius_mm": 0.0
+        }
+      },
+      {
+        "id": "parent",
+        "page_id": "page-1",
+        "parent_id": null,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "width_mm": 0.0,
+        "height_mm": 0.0,
+        "transform": [
+          1.0,
+          0.0,
+          -0.6,
+          -0.8,
+          60.0,
+          60.0
+        ],
+        "style": {
+          "fill": "#287ac7",
+          "stroke": "none",
+          "stroke_width_mm": 0.0,
+          "opacity": 1.0
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "group"
+        }
+      },
+      {
+        "id": "content",
+        "page_id": "page-1",
+        "parent_id": "parent",
+        "x_mm": 10.0,
+        "y_mm": 12.0,
+        "width_mm": 20.0,
+        "height_mm": 10.0,
+        "transform": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "style": {
+          "fill": "#123456",
+          "stroke": "#dc5028",
+          "stroke_width_mm": 0.5,
+          "opacity": 1.0,
+          "stroke_linejoin": "round"
+        },
+        "visible": true,
+        "locked": false,
+        "geometry": {
+          "kind": "ellipse"
+        }
+      }
+    ],
+    "resources": {}
+  }
+}
