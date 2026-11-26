@@ -3,8 +3,9 @@
 <p align="center"><strong>用毫米绘图，为多页文档排版。</strong></p>
 
 <p align="center">
-  <a href="https://github.com/loaye1203/Arranger/releases/download/v0.1.0-preview.1/Arranger-v0.1.0-preview.1-windows-x64.zip"><strong>下载 Windows x64 便携版</strong></a>
-  · <a href="https://github.com/loaye1203/Arranger/releases/tag/v0.1.0-preview.1">发行说明与校验文件</a>
+  <a href="https://github.com/loaye1203/Arranger/releases/download/v0.1.0/Arranger-v0.1.0-windows-x64.zip"><strong>下载 0.1 原版 · Windows x64</strong></a>
+  · <a href="https://github.com/loaye1203/Arranger/releases/tag/v0.1.0">0.1 Release 与校验文件</a>
+  · <a href="https://github.com/loaye1203/Arranger/releases/download/v0.1.0/Arranger-v0.1.0-ocr-windows-x64.zip">离线 OCR 扩展版</a>
   · <a href="#从源码构建">从源码构建</a>
 </p>
 
@@ -15,6 +16,11 @@
 Arranger 是一款开源、本地运行的二维矢量编辑器。你可以直接在画布上绘制和排版，也可以在属性面板里按毫米输入位置与尺寸。每一页都有自己的尺寸，同一份文档可以同时包含图形、文字和图片。它适合制作需要按实际尺寸绘制的矢量图、图文版面和多页文档。
 
 编辑中的文件保存为 `.arranger`。需要交付时，可以导出 PDF、SVG、PNG，或在兼容范围内与 CorelDRAW 交换 CDR 14 / 21 文件。
+
+## 0.1 版本选择
+
+- **原版**是正式的 0.1 版本，适合矢量绘图、文字排版和多页编辑，使用页面顶部的默认下载入口。
+- **离线 OCR 扩展版**附带同版编辑器和独立的 OCR 工作台，用于从平面图片识别文字、转绘和按量拼版。Windows 扩展包内含模型和 Python 库，需要本机已有带 Tkinter 的 Python 3.14 x64。
 
 ## 图形、节点和文字
 
@@ -64,7 +70,7 @@ Arranger 是一款开源、本地运行的二维矢量编辑器。你可以直�
 2. 在「文件 → 打开」中选择 `samples/vector-study.arranger`，用底部的页码控件在两页之间切换。
 3. 修改一个对象，把自己的版本另存为 `.arranger`，再通过「导出 → PDF」输出两页。样稿目录附有对应的参考 PDF。
 
-当前发布的是 Windows x64 预览版，程序未签名。Apple Silicon 的构建与打包脚本随源码提供，macOS 安装镜像待实机验收。
+当前提供 Windows x64 原版和离线 OCR 扩展版，Windows 程序未签名。Apple Silicon 的构建与打包脚本随源码提供，macOS 安装镜像待实机验收。
 
 ## 从源码构建
 
